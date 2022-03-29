@@ -34,7 +34,6 @@ a:hover {
   flex-direction: column;
   height: 100%
 }
-
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -45,21 +44,43 @@ a:hover {
   box-sizing: border-box;
 }
 
+#container.header {
+  background-color: rgba(34, 34, 34, 0.9);
+  padding: 0 16px;
+  height: 56px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#container.header div {
+  height: 100%;
+  width: 80px;
+  display: inline-flex;
+}
+#start.header, #end.header {
+  display: flex;
+  flex-direction: row;
+}
+#start.header {
+  background-color: rgba(100, 0, 0, 0.8);
+  align-items: center
+}
+#center.header {background-color: rgba(0, 100, 0, 0.8);}
+#end.header {background-color: rgba(0, 0, 100, 0.8);}
+
 .footer {
   background: #121212;
 }
-
 #footalt1.footer {
   padding: 15px 30px;
   border-bottom: 1px solid #212327;
   font-size: 15px;
   color: #9aa0a6;
 }
-
 #footmain.footer {
   padding: 0 20px;
 }
-
 a.ftcont {
   color: #999da2;
 }
