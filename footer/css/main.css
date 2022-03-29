@@ -21,6 +21,10 @@ body {
   margin: 0;
   overflow-y: scroll;
 }
+a {
+  color: #8ab4f8
+  text-decoration: none
+}
 
 .content {
   display: flex;
@@ -28,10 +32,11 @@ body {
   height: 100%
 }
 
-.test {
-  padding: 20% 0;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 .flex-fixed {
   flex-shrink: 0;
   box-sizing: border-box;
@@ -39,6 +44,7 @@ body {
 
 .footer {
   background: #121212;
+
 }
 
 #footalt1.footer {
@@ -46,4 +52,22 @@ body {
   border-bottom: 1px solid #212327;
   font-size: 15px;
   color: #9aa0a6;
+}
+
+#footmain.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#footmain.footer {
+  padding: 0 20px;
+}
+
+a.ftcont {
+  color: #999da2;
+}
+.ftcont {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
 }
