@@ -55,7 +55,7 @@ a:hover {
 }
 #container.header div {
   height: 100%;
-  width: 80px;
+  width: 400px;
   display: inline-flex;
 }
 #start.header, #end.header {
@@ -68,6 +68,19 @@ a:hover {
 }
 #center.header {background-color: rgba(0, 100, 0, 0.8);}
 #end.header {background-color: rgba(0, 0, 100, 0.8);}
+
+
+#buttons.start a {
+  margin: auto;
+  padding: 8px 20px;
+}
+#buttons.end a {
+  margin: auto;
+  padding: 8px 40px;
+}
+a.hdcont {
+  color: #e8eaed;
+}
 
 
 .footer {
