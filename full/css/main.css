@@ -134,7 +134,7 @@ searchbox {display: flex;}
   background-color: rgb(18, 18, 18);
   border: 1px solid rgb(48, 48, 48);
   border-right: none;
-  border-radius: 8px 0 0 8px;
+  border-radius: 5px 0 0 5px;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.88);
   padding: 0 6px;
@@ -180,7 +180,7 @@ searchbox {display: flex;}
 #search-icon.searchbox {
   border: 1px solid rgba(255, 255, 255, 0.08);
   background-color: rgba(255, 255, 255, 0.08);
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 5px 5px 0;
   cursor: pointer;
   height: 30px;
   width: 64px;
