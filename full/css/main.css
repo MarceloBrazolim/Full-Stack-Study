@@ -82,6 +82,40 @@ a.hdcont {
   color: #e8eaed;
 }
 
+#center.header ul {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  position: relative;
+}
+#searchbox.header {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 9px 20px;
+  margin: auto;
+  border: 0px;
+}
+#searchbox.header .searchbox {
+  position: relative;
+  display: inline;
+}
+#searchbox.header .searchbox span {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  font-size: 18px;
+  color: #9fb6c3;
+}
+#searchbox.header .searchbox input {
+  background: #e3ebef;
+  box-shadow: none;
+  border: 0;
+  width: 200px;
+  padding: 3px 130px 3px 30px;
+  border-radius: 90px;
+  font-weight: bold;
+}
+
 
 .footer {
   background: #121212;
