@@ -1,0 +1,17 @@
+#container.header {
+    overflow: hidden;
+    width: auto;
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 0 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hdtxt {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.88);
+}
+.hdtxt:hover {
+    text-decoration: underline;
+}

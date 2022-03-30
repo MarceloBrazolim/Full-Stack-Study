@@ -1,0 +1,14 @@
+#container.footer {
+    overflow: hidden;
+    width: auto;
+    background-color: #121212;
+    color: #9aa0a6;
+    padding: 15px 30px;
+}
+.fttxt {
+    text-decoration: none;
+    color: #9aa0a6;
+}
+.fttxt:hover {
+    text-decoration: underline;
+}
