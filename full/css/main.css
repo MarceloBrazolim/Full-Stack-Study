@@ -47,7 +47,7 @@ a:hover {
 #container.header {
   background-color: rgba(34, 34, 34, 0.9);
   padding: 0 16px;
-  height: 56px;
+  height: 40px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -68,6 +68,7 @@ a:hover {
 }
 #center.header {background-color: rgba(0, 100, 0, 0.8);}
 #end.header {background-color: rgba(0, 0, 100, 0.8);}
+
 
 .footer {
   background: #121212;
