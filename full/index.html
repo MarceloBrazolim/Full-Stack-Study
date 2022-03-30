@@ -22,14 +22,22 @@
           </div>
 
           <div id="center" class="header">
-            <ul>
-              <li id="searchbox" class="header">
-                <div class="searchbox">
-                  <span class=""></span>
-                  <input type="text" value="Search">
+            <searchbox id="search" class="header" desktop-searchbar-style="default" desktop-sbox-icon="" system-icons="" role="search">
+              <form id="search-form" class="searchbox" action="/results">
+                <div id="container" class="searchbox">
+                  <div id="search-input" class="searchbox-spt" slot="search-input">
+                    <div class="slib_a" style="height: 24px;">
+                      <div class="slib_b" dir="ltr">
+                        <input id="search" class="searchbox" autocapitalize="none" autocomplete="off" autocorrect="off" name="search_query" tabindex="0" type="text" spellcheck="false" placeholder="Search" aria-label="Search" role="combobox" aria-haspopup="false" aria-autocomplete="list" style="border: medium none; padding: 0px; margin: 0px; height: auto; width: 100%; outline: currentcolor none medium;" dir="ltr">
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </li>
-            </ul>
+              </form>
+              <button id="search-icon" class="searchbox" aria-label="Search">
+                <icon class="searchbox"><span style="pointer-events: none; display: block; width: 100%; height: 100%;">GO</span></icon>
+              </button>
+            </searchbox>
           </div>
 
           <div id="end" class="header">
