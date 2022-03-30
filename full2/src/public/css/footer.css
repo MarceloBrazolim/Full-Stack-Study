@@ -4,6 +4,10 @@
     background-color: #121212;
     color: #9aa0a6;
     padding: 15px 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .fttxt {
     text-decoration: none;
@@ -11,4 +15,12 @@
 }
 .fttxt:hover {
     text-decoration: underline;
+}
+
+
+#start.footer a {
+    padding: 15px;
+}
+#end.footer a {
+    padding: 15px;
 }
