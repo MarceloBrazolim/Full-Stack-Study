@@ -19,6 +19,8 @@ body, input, button {
 body {
   padding: 0;
   margin: 0;
+  width: 100vw;
+  height: 100vh;
   overflow-y: scroll;
 }
 a {
@@ -27,6 +29,13 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+#master-container {
+  min-width: 1008px;
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
@@ -45,6 +54,11 @@ a:hover {
 }
 
 #container.header {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
   background-color: rgba(34, 34, 34, 0.9);
   padding: 0 16px;
   height: 40px;
@@ -81,6 +95,8 @@ a.hdcont {
 }
 
 #center.header {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   flex: 0 1 568px;
   min-width: 0px;
@@ -102,7 +118,7 @@ searchbox.header {
   flex: 1;
   flex-basis: 0.000000001px;
 }
-searchbox {display: flex; height: 30px;}
+searchbox {display: flex;}
 #search-form.searchbox {
   margin: 0px 0;
   height: 28px;
@@ -185,6 +201,34 @@ icon {
   fill: #fff;
   stroke: none;
   margin: 0;
+}
+
+#end.header {
+  min-width: 225px;
+  align-items: center;
+  justify-content: flex-end;
+  flex: none;
+}
+
+#container.header:after {
+  content: "";
+  height: 5px;
+  opacity: 1;
+  pointer-events: none;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  z-index: 2050;
+  bottom: 0;
+  left: 0;
+}
+
+
+#container.mainpage {
+  margin-top: 40px;
+}
+#container.mainpage p {
+  padding: 20px 24px 10px;
 }
 
 
