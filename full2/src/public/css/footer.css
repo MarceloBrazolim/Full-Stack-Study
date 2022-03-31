@@ -11,10 +11,11 @@
 }
 .fttxt {
     text-decoration: none;
-    color: #9aa0a6;
+    color: rgb(154, 160, 166);
 }
 .fttxt:hover {
     text-decoration: underline;
+    color: rgb(210, 211, 211);
 }
 
 

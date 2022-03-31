@@ -1,0 +1,24 @@
+#sidebar_top.mainpage {
+    grid-area: sidebar_top;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#sidebar_top.mainpage img {
+    width: 100%;
+}
+#sidebar_bottom.mainpage {
+    grid-area: sidebar_bottom;
+    padding: 20px 24px 10px;
+    overflow-y: scroll;
+}
+#sidebar_bottom.mainpage a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+#sidebar_bottom.mainpage a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 1);;
+}

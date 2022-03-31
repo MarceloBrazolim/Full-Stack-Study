@@ -1,6 +1,25 @@
 #container.mainpage {
-    overflow: hidden;
     width: auto;
     background-color: #181818;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px auto;
+    grid-template-areas:
+        "sidebar mainpage_content";
+}
+#sidebar.mainpage {
+    background: #141414;
+    grid-area: sidebar;
+    display: grid;
+    grid-template-rows: 150px auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "sidebar_top"
+        "sidebar_bottom";
+}
+#mainpage_content.mainpage {
+    grid-area: mainpage_content;
     padding: 20px 24px 10px;
+    background: #181818;
 }
