@@ -26,6 +26,6 @@
     width: 100%;
     grid-area: mainpage_content;
     padding: 20px 24px 0;
-    background: #101010;
+    background: var(--main1-color);
     box-shadow: 4px 1px 7px 1px #080808 inset;
 }

@@ -1,0 +1,14 @@
+html {
+    --gen1-color: #fff;
+    --gen2-color: #000;
+}
+html[dark] {
+    --main-bg-color: #101010;
+}
+html[fresh] {
+    --main1-color: #05386b;
+    --main2-color: #379683;
+    --main3-color: #5cdb95;
+    --main4-color: #8ee4af;
+    --main5-color: #edf5e1;
+}
