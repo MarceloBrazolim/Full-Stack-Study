@@ -20,12 +20,11 @@ main {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 40px auto 50px;
+    grid-template-rows: 40px auto;
     grid-template-columns: 1fr;
     grid-template-areas:
         "header"
-        "mainpage"
-        "footer";
+        "mainpage";
 }
 
 #container.header {
@@ -33,7 +32,4 @@ main {
 }
 #container.mainpage {
     grid-area: mainpage;
-}
-#container.footer {
-    grid-area: footer;
 }

@@ -5,6 +5,7 @@
     border: 0;
     width: 100%;
     overflow: hidden;
+    box-shadow: 0 2px 1px 1px #101010;
 }
 #sidebar_top.mainpage img {
     width: 100%;

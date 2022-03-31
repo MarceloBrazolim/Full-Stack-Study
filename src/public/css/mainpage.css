@@ -1,4 +1,5 @@
 #container.mainpage {
+    overflow: scroll;
     width: auto;
     background-color: #181818;
     color: #fff;
@@ -21,7 +22,7 @@
 }
 #mainpage_content.mainpage {
     grid-area: mainpage_content;
-    padding: 20px 24px 10px;
-    background: #181818;
-    box-shadow: 4px 1px 7px 1px #101010 inset;
+    padding: 20px 24px 0;
+    background: #101010;
+    box-shadow: 4px 1px 7px 1px #080808 inset;
 }
