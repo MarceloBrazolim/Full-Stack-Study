@@ -9,7 +9,10 @@
     padding: 24px;
 }
 .mainpg_cont_gallery div {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+.mainpg_cont_gallery div img {
+    box-shadow: 2px 4px 8px 4px #0f0f0f;
 }
 .mainpg_cont_gallery div p {
     padding-left: 10px;

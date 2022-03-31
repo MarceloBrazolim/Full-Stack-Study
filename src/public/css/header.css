@@ -1,7 +1,7 @@
 #container.header {
     overflow: hidden;
     width: auto;
-    background-color: #202020;
+    background-color: rgb(32, 32, 32);
     padding: 0 16px;
     align-items: center;
     display: flex;

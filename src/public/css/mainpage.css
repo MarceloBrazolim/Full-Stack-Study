@@ -10,6 +10,7 @@
         "sidebar mainpage_content";
 }
 #sidebar.mainpage {
+    overflow-x: hidden;
     grid-area: sidebar;
     background: #141414;
     border-right: 1px solid rgba(100, 100, 100, 0.1);
@@ -21,6 +22,8 @@
         "sidebar_bottom";
 }
 #mainpage_content.mainpage {
+    height: 100%;
+    width: 100%;
     grid-area: mainpage_content;
     padding: 20px 24px 0;
     background: #101010;
