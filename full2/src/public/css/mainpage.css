@@ -9,8 +9,9 @@
         "sidebar mainpage_content";
 }
 #sidebar.mainpage {
-    background: #141414;
     grid-area: sidebar;
+    background: #141414;
+    border-right: 1px solid rgba(100, 100, 100, 0.1);
     display: grid;
     grid-template-rows: 150px auto;
     grid-template-columns: 1fr;
@@ -22,4 +23,5 @@
     grid-area: mainpage_content;
     padding: 20px 24px 10px;
     background: #181818;
+    box-shadow: 4px 1px 7px 1px #101010 inset;
 }

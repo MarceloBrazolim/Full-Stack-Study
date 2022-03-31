@@ -12,7 +12,6 @@
 #sidebar_bottom.mainpage {
     grid-area: sidebar_bottom;
     padding: 20px 24px 10px;
-    overflow-y: scroll;
 }
 #sidebar_bottom.mainpage a {
     text-decoration: none;
