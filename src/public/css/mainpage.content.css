@@ -9,9 +9,23 @@
 .mainpg_cont_gallery div {
     margin-bottom: 1rem;
 }
+.mainpg_cont_gallery div a {
+    text-decoration: none;
+}
+.mainpg_cont_gallery div a:hover {
+    opacity: .9;
+}
+.mainpg_cont_gallery div img {
+    border-radius: 2px 2px 2px 0;
+}
 .mainpg_cont_gallery div p {
     letter-spacing: 0.4px;
+    border-radius: 0 0 5px 2px;
     font-weight: 550;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-bottom: 1rem;
+    padding-top: 5px;
+    border-top: none;
+    border: 1px solid rgba(10,10,10, 0.1);
 }

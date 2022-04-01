@@ -3,26 +3,30 @@ main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
 #mainpage_content.mainpage {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.5) inset;} /*mainpage shadow*/
 #mainpage_table.mainpage {box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.5);} /*mainpage shadow*/
 #sidebar_top.mainpage {box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);} /*sidebar banner shadow*/
-.mainpg_cont_gallery div img {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery images shadow*/
+.mainpg_cont_gallery div img {box-shadow: 0px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery images shadow*/
+.mainpg_cont_gallery div p {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery text shadow*/
 
 /*=====COLOR=====*/
 main {color: var(--main2-font1-color);} /*????*/
 #container.header a:hover {color: var(--main1-font1-color);} /*header text hover*/
 #container.header a {color: var(--main1-font2-color);} /*header text*/
-#sidebar_bottom.mainpage a:hover {color: var(--main3-font1-color);} /*sidebar buttons hover*/
-#sidebar_bottom.mainpage a {color: var(--main3-font2-color);} /*sidebar buttons*/
+#sidebar_bottom.mainpage ul {color: var(--main2-font1-color)} /*sidebar decorations*/
+#sidebar_bottom.mainpage a:hover {color: var(--main2-font1-color);} /*sidebar buttons hover*/
+#sidebar_bottom.mainpage a {color: var(--main2-font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--main2-font1-color);} /*titles*/
-#container.mainpage {color: var(--main2-font1-color);} /*mainpage general*/
-#mainpage_table.mainpage {color: var(--main2-font1-color);} /*mainpage table text*/
+#container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
+#mainpage_table.mainpage {color: var(--main3-font1-color);} /*mainpage table text*/
+.mainpg_cont_gallery div a {color: var(--main3-font1-color);} /*mainpage table text link*/
 
 /*=====BACKGROUND=====*/
-hr.theme_inverted {background-color: var(--main01-color);} /*light on dark theme*/
-hr.theme_same {background-color: var(--main05-color);} /*dark on dark themes*/
+hr.hr_contrast {background-color: var(--main02-color);} /*light on dark theme*/
+hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #container.header {background-color: var(--main05-color);} /*header nav bar*/
-#sidebar.mainpage {background-color: var(--main02-color);} /*sidebar bottom*/
+#sidebar.mainpage {background-color: var(--main03-color);} /*sidebar bottom*/
 #container.mainpage {background-color: var(--main03-color);} /*mainpage scrollbar*/
-#mainpage_table.mainpage {background-color: var(--main02-color);} /*mainpage table*/
-#mainpage_content.mainpage {background-color: var(--main04-color);} /*mainpage content*/
+#mainpage_content.mainpage {background-color: var(--main02-color);} /*mainpage content*/
+#mainpage_table.mainpage {background-color: var(--main03-color);} /*mainpage table*/
+.mainpg_cont_gallery div p {background: var(--main01-color);} /*mainpage gallery text*/
 
 
 html[yellow_vivid] {
@@ -33,8 +37,8 @@ html[yellow_vivid] {
     --main05-color: #000814;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(0,0,0);
-    --main2-font2-color: rgba(0,0,0, 0.9);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
 }
@@ -51,12 +55,25 @@ html[blue_enterprise] {
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
 }
-html[brown_cozy] {
-    --main01-color: #a44a3f;
-    --main02-color: #f19c79;
-    --main03-color: #cbdfbd;
-    --main04-color: #d4e09b;
-    --main05-color: #f6f4d2;
+html[brown] {
+    --main01-color: #ccd5ae;
+    --main02-color: #e9edc9;
+    --main03-color: #fefae0;
+    --main04-color: #faedcd;
+    --main05-color: #d4a373;
+    --main1-font1-color: rgb(0,0,0);
+    --main1-font2-color: rgba(0,0,0, 0.9);
+    --main2-font1-color: rgb(0,0,0);
+    --main2-font2-color: rgba(0,0,0, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[sunset] {
+    --main01-color: #e63946;
+    --main02-color: #f1faee;
+    --main03-color: #a8dadc;
+    --main04-color: #457b9d;
+    --main05-color: #1d3557;
     --main1-font1-color: rgb(0,0,0);
     --main1-font2-color: rgba(0,0,0, 0.9);
     --main2-font1-color: rgb(0,0,0);
@@ -80,10 +97,17 @@ html[x] {
 }
 
             ==========COLOR==========
-    --main1-font1-color: rgb(0,0,0);
-    --main1-font2-color: rgba(0,0,0, 0.9);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(189,193,197);
-    --main3-font2-color: rgba(189,193,197, 0.9);
+    --mainX-font1-color: rgb(255,255,255);
+    --mainX-font2-color: rgba(255,255,255, 0.88);
+
+    --mainX-font1-color: rgb(0,0,0);
+    --mainX-font2-color: rgba(0,0,0, 0.9);
+
+
+
+    --mainX-font1-color: rgb(189,193,197);
+    --mainX-font2-color: rgba(189,193,197, 0.9);
+
+    --mainX-font1-color: rgb(0,8,20);
+    --mainX-font2-color: rgba(0,8,20, 0.9);
 */
