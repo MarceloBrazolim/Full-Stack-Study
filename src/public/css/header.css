@@ -7,11 +7,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.hdtxt {
+#container.header a {
     text-decoration: none;
     font-weight: 600;
 }
-.hdtxt:hover {
+#container.header a:hover {
     text-decoration: underline;
 }
 

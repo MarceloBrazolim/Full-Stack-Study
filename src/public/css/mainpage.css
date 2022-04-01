@@ -1,5 +1,5 @@
 #container.mainpage {
-    overflow: scroll;
+    overflow-y: scroll;
     width: auto;
     display: grid;
     grid-template-rows: 1fr;

@@ -1,87 +1,55 @@
-#mainpage_content.mainpage {
-    box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.5) inset;
-    background: var(--main5-color);
-}
-#mainpage_table.mainpage {
-    box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.5);
-    background: var(--main9-color);
-    color: var(--gen-font1-color-op88);
-}
-#sidebar_top.mainpage {
-    box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);
-}
-#sidebar_bottom.mainpage a {
-    color: var(--gen-font1-color-op9);
-}
-#sidebar_bottom.mainpage a:hover {
-    color: var(--gen-font1-color);
-}
-.mainpg_cont_gallery div img {
-    box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);
-}
+main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
+/*=====BOX-SHADOW=====*/
+#mainpage_content.mainpage {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.5) inset;} /*mainpage shadow*/
+#mainpage_table.mainpage {box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.5);} /*mainpage shadow*/
+#sidebar_top.mainpage {box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);} /*sidebar banner shadow*/
+.mainpg_cont_gallery div img {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery images shadow*/
 
-#container.mainpage {
-    background-color: var(--main5-color);
-    color: var(--gen-font1-color-op88);
-}
-#container.header {
-    background-color: var(--main9-color);
-}
-#sidebar.mainpage {
-    background: var(--main10-color);
-}
+/*=====COLOR=====*/
+main {color: var(--main2-font1-color);} /*????*/
+#container.header a:hover {color: var(--main1-font1-color);} /*header text hover*/
+#container.header a {color: var(--main1-font2-color);} /*header text*/
+#sidebar_bottom.mainpage a:hover {color: var(--main3-font1-color);} /*sidebar buttons hover*/
+#sidebar_bottom.mainpage a {color: var(--main3-font2-color);} /*sidebar buttons*/
+h2, h3 {color: var(--main2-font1-color);} /*titles*/
+#container.mainpage {color: var(--main2-font1-color);} /*mainpage general*/
+#mainpage_table.mainpage {color: var(--main2-font1-color);} /*mainpage table text*/
 
-main {
-    scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-    color: var(--gen-font2-color);
-}
-h2, h3 {
-    color: var(--gen-font-color);
-}
-.hdtxt {
-    color: var(--gen-font1-color-op88);
-}
-.hdtxt:hover {
-    color: var(--gen-font1-color);
-}
+/*=====BACKGROUND=====*/
+#container.header {background-color: var(--main05-color);} /*header nav bar*/
+#sidebar.mainpage {background-color: var(--main02-color);} /*sidebar bottom*/
+#container.mainpage {background-color: var(--main03-color);} /*mainpage scrollbar*/
+#mainpage_table.mainpage {background-color: var(--main02-color);} /*mainpage table*/
+#mainpage_content.mainpage {background-color: var(--main04-color);} /*mainpage content*/
 
 
-html {
-    --gen1-color: #fff;
-    --gen2-color: #000;
-}
-html[dark] {
-    --main1-color: #202020;
-    --main2-color: #181818;
-    --main3-color: #141414;
-    --main4-color: #121212;
-    --main5-color: #101010;
-    --gen-font1-color: rgb(255, 255, 255);
-    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
-    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
-    --gen-font2-color: rgb(189, 193, 197);
-    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
-}
-html[fresh] {
-    --main1-color: #05386b;
-    --main2-color: #379683;
-    --main3-color: #5cdb95;
-    --main4-color: #8ee4af;
-    --main5-color: #edf5e1;
-}
-html[brutal] {
-    --main1-color: #f00;
+html[pink] {
+    --main01-color: #f7d1cd;
+    --main02-color: #e8c2ca;
+    --main03-color: #d1b3c4;
+    --main04-color: #b392ac;
+    --main05-color: #735d78;
+    --main06-color: #f7d1cd;
+    --main07-color: #e8c2ca;
+    --main08-color: #d1b3c4;
+    --main09-color: #b392ac;
+    --main10-color: #735d78;
+    --gen-font1-color: rgb(0, 0, 0);
+    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
+    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
+    --gen-font2-color: rgb(32, 32, 32);
+    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
 }
 html[toto] {
-    --main1-color: #006466;
-    --main2-color: #065a60;
-    --main3-color: #0b525b;
-    --main4-color: #144552;
-    --main5-color: #1b3a4b;
-    --main6-color: #4d194d;
-    --main7-color: #3e1f47;
-    --main8-color: #312244;
-    --main9-color: #272640;
+    --main01-color: #006466;
+    --main02-color: #065a60;
+    --main03-color: #0b525b;
+    --main04-color: #144552;
+    --main05-color: #1b3a4b;
+    --main06-color: #4d194d;
+    --main07-color: #3e1f47;
+    --main08-color: #312244;
+    --main09-color: #272640;
     --main10-color: #212f45;
     --gen-font1-color: rgb(255, 255, 255);
     --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
@@ -89,68 +57,58 @@ html[toto] {
     --gen-font2-color: rgb(189, 193, 197);
     --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
 }
-html[purple_dark] {
-    --main1-color: #e0aaff;
-    --main2-color: #c77dff;
-    --main3-color: #9d4edd;
-    --main4-color: #7b2cbf;
-    --main5-color: #5a189a;
-    --main6-color: #50148c;
-    --main7-color: #3c096c;
-    --main8-color: #240046;
-    --main9-color: #16003d;
-    --main10-color: #10002b;
+html[yellow_vivid] {
+    --main01-color: #ffd60a;
+    --main02-color: #ffc300;
+    --main03-color: #003566;
+    --main04-color: #001d3d;
+    --main05-color: #000814;
+    --main06-color: #ffd60a;
+    --main07-color: #ffc300;
+    --main08-color: #003566;
+    --main09-color: #001d3d;
+    --main10-color: #000814;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,0,0);
+    --main2-font2-color: rgba(0,0,0, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+
+/*
+html[x] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main06-color: #;
+    --main07-color: #;
+    --main08-color: #;
+    --main09-color: #;
+    --main10-color: #;
+
+            ==========COLOR==========
+    --main1-font1-color: rgb(0,0,0);
+    --main1-font2-color: rgba(0,0,0, 0.9);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(189,193,197);
+    --main3-font2-color: rgba(189,193,197, 0.9);
+
+            ==========BLACK==========
+    --gen-font1-color: rgb(0, 0, 0);
+    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
+    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
+    --gen-font2-color: rgb(32, 32, 32);
+    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
+
+            ==========WHITE==========
     --gen-font1-color: rgb(255, 255, 255);
     --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
     --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
     --gen-font2-color: rgb(189, 193, 197);
     --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
-}
-html[purple_light] {
-    --main1-color: #10002b;
-    --main2-color: #16003d;
-    --main3-color: #240046;
-    --main4-color: #3c096c;
-    --main5-color: #50148c;
-    --main6-color: #5a189a;
-    --main7-color: #7b2cbf;
-    --main8-color: #9d4edd;
-    --main9-color: #c77dff;
-    --main10-color: #e0aaff;
-    --gen-font1-color: rgb(0, 0, 0);
-    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
-    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
-    --gen-font2-color: rgb(32, 32, 32);
-    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
-}
-html[skintone] {
-    --main1-color: #fec89a;
-    --main2-color: #fcd2af;
-    --main3-color: #f9dcc4;
-    --main4-color: #f9e5d8;
-    --main5-color: #f8edeb;
-    --main6-color: #fae1dd;
-    --main7-color: #fcd5ce;
-    --main8-color: #fec5bb;
-    --main9-color: #ffb5a7;
-    --main10-color: #e8a598;
-    --gen-font1-color: rgb(0, 0, 0);
-    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
-    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
-    --gen-font2-color: rgb(32, 32, 32);
-    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
-}
-/*
-html[x] {
-    --main1-color: #;
-    --main2-color: #;
-    --main3-color: #;
-    --main4-color: #;
-    --main5-color: #;
-    --main6-color: #;
-    --main7-color: #;
-    --main8-color: #;
-    --main9-color: #;
-    --main10-color: #;
 }
 */
