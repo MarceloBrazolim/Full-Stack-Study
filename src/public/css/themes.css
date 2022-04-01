@@ -13,13 +13,13 @@ main {color: var(--main2-font1-color);} /*????*/
 #sidebar_bottom.mainpage ul {color: var(--main2-font1-color)} /*sidebar decorations*/
 #sidebar_bottom.mainpage a:hover {color: var(--main2-font1-color);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage a {color: var(--main2-font2-color);} /*sidebar buttons*/
-h2, h3 {color: var(--main4-font1-color);} /*titles*/
+h2, h3 {color: var(--main3-font1-color);} /*titles*/
 #container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
 #mainpage_table.mainpage {color: var(--main3-font1-color);} /*mainpage table text*/
-.mainpg_cont_gallery div a {color: var(--main3-font1-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a {color: var(--main1-font1-color);} /*mainpage table text link*/
 
 /*=====BACKGROUND=====*/
-hr.hr_contrast {background-color: var(--main02-color);} /*light on dark theme*/
+hr.hr_contrast {background-color: var(--main1-font1-color);} /*light on dark theme*/
 hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #container.header {background-color: var(--main05-color);} /*header nav bar*/
 #sidebar.mainpage {background-color: var(--main04-color);} /*sidebar bottom*/
@@ -66,10 +66,10 @@ html[blue_enterprise] {
     --main05-color: #353535;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(0,0,0);
-    --main2-font2-color: rgba(0,0,0, 0.9);
-    --main3-font1-color: rgb(0,8,20);
-    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
 }
 html[brown] {
     --main01-color: #ccd5ae;
@@ -84,19 +84,188 @@ html[brown] {
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
 }
-html[sunset] {
-    --main01-color: #e63946;
-    --main02-color: #f1faee;
-    --main03-color: #a8dadc;
-    --main04-color: #457b9d;
-    --main05-color: #1d3557;
-    --main1-font1-color: rgb(0,0,0);
-    --main1-font2-color: rgba(0,0,0, 0.9);
-    --main2-font1-color: rgb(0,0,0);
-    --main2-font2-color: rgba(0,0,0, 0.9);
+/*==============================*/
+html[lavender] {
+    --main01-color: #f2afad;
+    --main02-color: #735565;
+    --main03-color: #d99ab7;
+    --main04-color: #f2bdcb;
+    --main05-color: #be7ca5;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
 }
+html[prim] {
+    --main01-color: #592e36;
+    --main02-color: #a69497;
+    --main03-color: #f2e4e9;
+    --main04-color: #590a2f;
+    --main05-color: #aebfbc;
+    --main1-font1-color: rgb(0,8,20);
+    --main1-font2-color: rgba(0,8,20, 0.9);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[prim2] {
+    --main01-color: #592e36;
+    --main02-color: #aebfbc;
+    --main03-color: #f2e4e9;
+    --main04-color: #a69497;
+    --main05-color: #590a2f;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[rose] {
+    --main01-color: #cebeaf;
+    --main02-color: #e9e2ec;
+    --main03-color: #e6bfdb;
+    --main04-color: #9d5981;
+    --main05-color: #5c2424;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[shades_of_purple] {
+    --main01-color: #d562be;
+    --main02-color: #ebc1ee;
+    --main03-color: #e4def9;
+    --main04-color: #ada1e6;
+    --main05-color: #605399;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[skate_ride] {
+    --main01-color: #011627;
+    --main02-color: #fdfffc;
+    --main03-color: #2ec4b6;
+    --main04-color: #e71d36;
+    --main05-color: #ff9f1c;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+    --main4-font2-color: rgba(0,8,20, 0.9);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+    --main4-font2-color: rgba(0,8,20, 0.9);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+    --main4-font2-color: rgba(0,8,20, 0.9);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+    --main4-font2-color: rgba(0,8,20, 0.9);
+}
+html[template] {
+    --main01-color: #;
+    --main02-color: #;
+    --main03-color: #;
+    --main04-color: #;
+    --main05-color: #;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+    --main4-font2-color: rgba(0,8,20, 0.9);
+}
+
+
 
 /*
 html[x] {
