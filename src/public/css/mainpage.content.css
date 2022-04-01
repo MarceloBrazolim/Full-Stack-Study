@@ -1,19 +1,13 @@
 #mainpage_table.mainpage {
-    background: var(--main4-color);
     width: 100%;
     height: 100%;
-    color: var(--gen-font1-color-op88);
-    border: 1px solid rgba(16, 16, 16, 0.5);
+    border: 1px solid rgba(16, 16, 16, 0.3);
     border-bottom: none;
-    box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.7);
     margin: 0;
     padding: 24px;
 }
 .mainpg_cont_gallery div {
     margin-bottom: 1rem;
-}
-.mainpg_cont_gallery div img {
-    box-shadow: 2px 2px 8px 2px rgba(16, 16, 16, 0.5);
 }
 .mainpg_cont_gallery div p {
     padding-left: 10px;

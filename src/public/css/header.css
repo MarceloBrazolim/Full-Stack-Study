@@ -1,7 +1,6 @@
 #container.header {
     overflow: hidden;
     width: auto;
-    background-color: var(--main8-color);
     padding: 0 16px;
     align-items: center;
     display: flex;
@@ -10,12 +9,10 @@
 }
 .hdtxt {
     text-decoration: none;
-    color: var(--gen-font1-color-op88);
     font-weight: 600;
 }
 .hdtxt:hover {
     text-decoration: underline;
-    color: var(--gen-font1-color);
 }
 
 

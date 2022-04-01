@@ -1,11 +1,54 @@
+#mainpage_content.mainpage {
+    box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.5) inset;
+    background: var(--main5-color);
+}
+#mainpage_table.mainpage {
+    box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.5);
+    background: var(--main9-color);
+    color: var(--gen-font1-color-op88);
+}
+#sidebar_top.mainpage {
+    box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);
+}
+#sidebar_bottom.mainpage a {
+    color: var(--gen-font1-color-op9);
+}
+#sidebar_bottom.mainpage a:hover {
+    color: var(--gen-font1-color);
+}
+.mainpg_cont_gallery div img {
+    box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);
+}
+
+#container.mainpage {
+    background-color: var(--main5-color);
+    color: var(--gen-font1-color-op88);
+}
+#container.header {
+    background-color: var(--main9-color);
+}
+#sidebar.mainpage {
+    background: var(--main10-color);
+}
+
+main {
+    scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
+    color: var(--gen-font2-color);
+}
+h2, h3 {
+    color: var(--gen-font-color);
+}
+.hdtxt {
+    color: var(--gen-font1-color-op88);
+}
+.hdtxt:hover {
+    color: var(--gen-font1-color);
+}
+
+
 html {
     --gen1-color: #fff;
     --gen2-color: #000;
-    --gen-font1-color: rgb(255, 255, 255);
-    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
-    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
-    --gen-font2-color: rgb(189, 193, 197);
-    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
 }
 html[dark] {
     --main1-color: #202020;
@@ -13,6 +56,11 @@ html[dark] {
     --main3-color: #141414;
     --main4-color: #121212;
     --main5-color: #101010;
+    --gen-font1-color: rgb(255, 255, 255);
+    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
+    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
+    --gen-font2-color: rgb(189, 193, 197);
+    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
 }
 html[fresh] {
     --main1-color: #05386b;
@@ -26,13 +74,83 @@ html[brutal] {
 }
 html[toto] {
     --main1-color: #006466;
-    --main2-color: #4d194d;
-    --main3-color: #065a60;
-    --main4-color: #3e1f47;
-    --main5-color: #0b525b;
-    --main6-color: #312244;
-    --main7-color: #144552;
-    --main8-color: #272640;
-    --main9-color: #1b3a4b;
+    --main2-color: #065a60;
+    --main3-color: #0b525b;
+    --main4-color: #144552;
+    --main5-color: #1b3a4b;
+    --main6-color: #4d194d;
+    --main7-color: #3e1f47;
+    --main8-color: #312244;
+    --main9-color: #272640;
     --main10-color: #212f45;
+    --gen-font1-color: rgb(255, 255, 255);
+    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
+    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
+    --gen-font2-color: rgb(189, 193, 197);
+    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
 }
+html[purple_dark] {
+    --main1-color: #e0aaff;
+    --main2-color: #c77dff;
+    --main3-color: #9d4edd;
+    --main4-color: #7b2cbf;
+    --main5-color: #5a189a;
+    --main6-color: #50148c;
+    --main7-color: #3c096c;
+    --main8-color: #240046;
+    --main9-color: #16003d;
+    --main10-color: #10002b;
+    --gen-font1-color: rgb(255, 255, 255);
+    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
+    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
+    --gen-font2-color: rgb(189, 193, 197);
+    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
+}
+html[purple_light] {
+    --main1-color: #10002b;
+    --main2-color: #16003d;
+    --main3-color: #240046;
+    --main4-color: #3c096c;
+    --main5-color: #50148c;
+    --main6-color: #5a189a;
+    --main7-color: #7b2cbf;
+    --main8-color: #9d4edd;
+    --main9-color: #c77dff;
+    --main10-color: #e0aaff;
+    --gen-font1-color: rgb(0, 0, 0);
+    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
+    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
+    --gen-font2-color: rgb(32, 32, 32);
+    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
+}
+html[skintone] {
+    --main1-color: #fec89a;
+    --main2-color: #fcd2af;
+    --main3-color: #f9dcc4;
+    --main4-color: #f9e5d8;
+    --main5-color: #f8edeb;
+    --main6-color: #fae1dd;
+    --main7-color: #fcd5ce;
+    --main8-color: #fec5bb;
+    --main9-color: #ffb5a7;
+    --main10-color: #e8a598;
+    --gen-font1-color: rgb(0, 0, 0);
+    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
+    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
+    --gen-font2-color: rgb(32, 32, 32);
+    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
+}
+/*
+html[x] {
+    --main1-color: #;
+    --main2-color: #;
+    --main3-color: #;
+    --main4-color: #;
+    --main5-color: #;
+    --main6-color: #;
+    --main7-color: #;
+    --main8-color: #;
+    --main9-color: #;
+    --main10-color: #;
+}
+*/

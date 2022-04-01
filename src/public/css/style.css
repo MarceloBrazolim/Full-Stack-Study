@@ -1,7 +1,5 @@
 main {
     font-family: 'Roboto', Arial, 'sans-serif';
-    scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-    color: var(--gen-font2-color);
 }
 body {
     margin: 0;
@@ -23,7 +21,6 @@ main {
 }
 
 h2, h3 {
-    color: var(--gen-font-color);
     font-weight: 700 !important;
     letter-spacing: 1px;
     word-spacing: 1px;
