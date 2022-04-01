@@ -16,6 +16,8 @@ h2, h3 {color: var(--main2-font1-color);} /*titles*/
 #mainpage_table.mainpage {color: var(--main2-font1-color);} /*mainpage table text*/
 
 /*=====BACKGROUND=====*/
+hr.theme_inverted {background-color: var(--main01-color);} /*light on dark theme*/
+hr.theme_same {background-color: var(--main05-color);} /*dark on dark themes*/
 #container.header {background-color: var(--main05-color);} /*header nav bar*/
 #sidebar.mainpage {background-color: var(--main02-color);} /*sidebar bottom*/
 #container.mainpage {background-color: var(--main03-color);} /*mainpage scrollbar*/
@@ -23,51 +25,12 @@ h2, h3 {color: var(--main2-font1-color);} /*titles*/
 #mainpage_content.mainpage {background-color: var(--main04-color);} /*mainpage content*/
 
 
-html[pink] {
-    --main01-color: #f7d1cd;
-    --main02-color: #e8c2ca;
-    --main03-color: #d1b3c4;
-    --main04-color: #b392ac;
-    --main05-color: #735d78;
-    --main06-color: #f7d1cd;
-    --main07-color: #e8c2ca;
-    --main08-color: #d1b3c4;
-    --main09-color: #b392ac;
-    --main10-color: #735d78;
-    --gen-font1-color: rgb(0, 0, 0);
-    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
-    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
-    --gen-font2-color: rgb(32, 32, 32);
-    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
-}
-html[toto] {
-    --main01-color: #006466;
-    --main02-color: #065a60;
-    --main03-color: #0b525b;
-    --main04-color: #144552;
-    --main05-color: #1b3a4b;
-    --main06-color: #4d194d;
-    --main07-color: #3e1f47;
-    --main08-color: #312244;
-    --main09-color: #272640;
-    --main10-color: #212f45;
-    --gen-font1-color: rgb(255, 255, 255);
-    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
-    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
-    --gen-font2-color: rgb(189, 193, 197);
-    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
-}
 html[yellow_vivid] {
     --main01-color: #ffd60a;
     --main02-color: #ffc300;
     --main03-color: #003566;
     --main04-color: #001d3d;
     --main05-color: #000814;
-    --main06-color: #ffd60a;
-    --main07-color: #ffc300;
-    --main08-color: #003566;
-    --main09-color: #001d3d;
-    --main10-color: #000814;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(0,0,0);
@@ -88,6 +51,7 @@ html[x] {
     --main08-color: #;
     --main09-color: #;
     --main10-color: #;
+}
 
             ==========COLOR==========
     --main1-font1-color: rgb(0,0,0);
@@ -96,19 +60,4 @@ html[x] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(189,193,197);
     --main3-font2-color: rgba(189,193,197, 0.9);
-
-            ==========BLACK==========
-    --gen-font1-color: rgb(0, 0, 0);
-    --gen-font1-color-op9: rgba(0, 0, 0, 0.9);
-    --gen-font1-color-op88: rgba(0, 0, 0, 0.88);
-    --gen-font2-color: rgb(32, 32, 32);
-    --gen-font2-color-op88: rgba(36, 26, 26, 0.88);
-
-            ==========WHITE==========
-    --gen-font1-color: rgb(255, 255, 255);
-    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
-    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
-    --gen-font2-color: rgb(189, 193, 197);
-    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
-}
 */

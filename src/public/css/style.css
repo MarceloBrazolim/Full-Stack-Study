@@ -20,8 +20,9 @@ main {
         "mainpage";
 }
 
+
 h2, h3 {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
