@@ -38,6 +38,32 @@ html[yellow_vivid] {
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
 }
+html[blue_enterprise] {
+    --main01-color: #ffffff;
+    --main02-color: #d9d9d9;
+    --main03-color: #3c6e71;
+    --main04-color: #284b63;
+    --main05-color: #353535;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,0,0);
+    --main2-font2-color: rgba(0,0,0, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
+html[brown_cozy] {
+    --main01-color: #a44a3f;
+    --main02-color: #f19c79;
+    --main03-color: #cbdfbd;
+    --main04-color: #d4e09b;
+    --main05-color: #f6f4d2;
+    --main1-font1-color: rgb(0,0,0);
+    --main1-font2-color: rgba(0,0,0, 0.9);
+    --main2-font1-color: rgb(0,0,0);
+    --main2-font2-color: rgba(0,0,0, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+}
 
 /*
 html[x] {
