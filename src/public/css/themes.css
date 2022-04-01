@@ -14,19 +14,19 @@ main {color: var(--main2-font1-color);} /*????*/
 #sidebar_bottom.mainpage a:hover {color: var(--main2-font1-color);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage a {color: var(--main2-font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--main3-font1-color);} /*titles*/
-#container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
+/*  #container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
 #mainpage_table.mainpage {color: var(--main3-font1-color);} /*mainpage table text*/
-.mainpg_cont_gallery div a {color: var(--main1-font1-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a {color: var(--main4-font1-color);} /*mainpage table text link*/
 
 /*=====BACKGROUND=====*/
-hr.hr_contrast {background-color: var(--main1-font1-color);} /*light on dark theme*/
+hr.hr_contrast {background-color: var(--main2-font1-color);} /*light on dark theme*/
 hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
-#container.header {background-color: var(--main05-color);} /*header nav bar*/
-#sidebar.mainpage {background-color: var(--main04-color);} /*sidebar bottom*/
-#container.mainpage {background-color: var(--main03-color);} /*mainpage scrollbar*/
-#mainpage_content.mainpage {background-color: var(--main02-color);} /*mainpage content*/
+#container.header {background-color: var(--main05-color);} /*header*/
+#sidebar.mainpage {background-color: var(--main04-color);} /*sidebar*/
+#container.mainpage {background-color: var(--main03-color);} /*scrollbar*/
 #mainpage_table.mainpage {background-color: var(--main03-color);} /*mainpage table*/
-.mainpg_cont_gallery div p {background: var(--main05-color);} /*mainpage gallery text*/
+.mainpg_cont_gallery div p {background: var(--main02-color);} /*mainpage content*/
+#mainpage_content.mainpage {background-color: var(--main01-color);} /*mainpage background*/
 
 
 /*==========GOOD ONES==========*/
@@ -42,6 +42,7 @@ html[yellow_vivid] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
 }
 
 /*==========BEING TESTED==========*/
@@ -57,6 +58,7 @@ html[neon] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[blue_enterprise] {
     --main01-color: #ffffff;
@@ -70,6 +72,7 @@ html[blue_enterprise] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[brown] {
     --main01-color: #ccd5ae;
@@ -96,7 +99,7 @@ html[lavender] {
     --main2-font1-color: rgb(0,8,20);
     --main2-font2-color: rgba(0,8,20, 0.9);
     --main3-font1-color: rgb(0,8,20);
-    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(255,255,255);
 }
 html[prim] {
     --main01-color: #592e36;
@@ -123,6 +126,7 @@ html[prim2] {
     --main2-font2-color: rgba(0,8,20, 0.9);
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[rose] {
     --main01-color: #cebeaf;
@@ -136,6 +140,7 @@ html[rose] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[shades_of_purple] {
     --main01-color: #d562be;
@@ -149,6 +154,7 @@ html[shades_of_purple] {
     --main2-font2-color: rgba(0,8,20, 0.9);
     --main3-font1-color: rgb(0,8,20);
     --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[skate_ride] {
     --main01-color: #011627;
@@ -162,6 +168,7 @@ html[skate_ride] {
     --main2-font2-color: rgba(255,255,255, 0.88);
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
 }
 html[template] {
     --main01-color: #;
