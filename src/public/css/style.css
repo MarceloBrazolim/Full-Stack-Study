@@ -20,7 +20,12 @@ main {
         "mainpage";
 }
 
-
+hr {
+    margin-top: 2rem !important;
+    height: 2px !important;
+    opacity: .5 !important;
+    border-radius: 50%;
+}
 h2, h3 {
     font-weight: 600 !important;
     letter-spacing: 1px;
