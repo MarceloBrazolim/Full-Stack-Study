@@ -5,7 +5,7 @@
     border: 0;
     width: 100%;
     overflow: hidden;
-    box-shadow: 0 2px 1px 1px #101010;
+    box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.5);
 }
 #sidebar_top.mainpage img {
     width: 100%;
@@ -16,11 +16,11 @@
 }
 #sidebar_bottom.mainpage a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--gen-font1-color-op9);
 }
 #sidebar_bottom.mainpage a:hover {
     text-decoration: underline;
-    color: rgba(255, 255, 255, 1);;
+    color: var(--gen-font1-color);;
 }
 .mainpage ul {
     list-style: none;

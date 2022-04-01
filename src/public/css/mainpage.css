@@ -1,8 +1,8 @@
 #container.mainpage {
     overflow: scroll;
     width: auto;
-    background-color: #181818;
-    color: #fff;
+    background-color: var(--main4-color);
+    color: var(--gen-font1-color-op88);
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 300px auto;
@@ -10,10 +10,9 @@
         "sidebar mainpage_content";
 }
 #sidebar.mainpage {
-    overflow-x: hidden;
+    overflow: hidden;
     grid-area: sidebar;
-    background: #141414;
-    border-right: 1px solid rgba(100, 100, 100, 0.1);
+    background: var(--main8-color);
     display: grid;
     grid-template-rows: 150px auto;
     grid-template-columns: 1fr;
@@ -27,5 +26,5 @@
     grid-area: mainpage_content;
     padding: 20px 24px 0;
     background: var(--main1-color);
-    box-shadow: 4px 1px 7px 1px #080808 inset;
+    box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.7) inset;
 }

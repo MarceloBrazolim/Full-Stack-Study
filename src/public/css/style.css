@@ -1,11 +1,7 @@
-html {
-    background-color: #181818;
-    font-family: Roboto, Arial, sans-serif;
+main {
+    font-family: 'Roboto', Arial, 'sans-serif';
     scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
-    color: #bdc1c5;
-}
-html[light] {
-    background-color: #f1f1f1 !important;
+    color: var(--gen-font2-color);
 }
 body {
     margin: 0;
@@ -13,7 +9,6 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
 main {
     max-width: 1980px;
     min-width: 768px;
@@ -25,6 +20,13 @@ main {
     grid-template-areas:
         "header"
         "mainpage";
+}
+
+h2, h3 {
+    color: var(--gen-font-color);
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 #container.header {

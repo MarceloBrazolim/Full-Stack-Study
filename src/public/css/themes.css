@@ -1,9 +1,18 @@
 html {
     --gen1-color: #fff;
     --gen2-color: #000;
+    --gen-font1-color: rgb(255, 255, 255);
+    --gen-font1-color-op9: rgba(255, 255, 255, 0.9);
+    --gen-font1-color-op88: rgba(255, 255, 255, 0.88);
+    --gen-font2-color: rgb(189, 193, 197);
+    --gen-font2-color-op88: rgba(189, 193, 197, 0.88);
 }
 html[dark] {
-    --main-bg-color: #101010;
+    --main1-color: #202020;
+    --main2-color: #181818;
+    --main3-color: #141414;
+    --main4-color: #121212;
+    --main5-color: #101010;
 }
 html[fresh] {
     --main1-color: #05386b;
@@ -11,4 +20,19 @@ html[fresh] {
     --main3-color: #5cdb95;
     --main4-color: #8ee4af;
     --main5-color: #edf5e1;
+}
+html[brutal] {
+    --main1-color: #f00;
+}
+html[toto] {
+    --main1-color: #006466;
+    --main2-color: #4d194d;
+    --main3-color: #065a60;
+    --main4-color: #3e1f47;
+    --main5-color: #0b525b;
+    --main6-color: #312244;
+    --main7-color: #144552;
+    --main8-color: #272640;
+    --main9-color: #1b3a4b;
+    --main10-color: #212f45;
 }
