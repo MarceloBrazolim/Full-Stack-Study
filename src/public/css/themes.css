@@ -13,7 +13,7 @@ main {color: var(--main2-font1-color);} /*????*/
 #sidebar_bottom.mainpage ul {color: var(--main2-font1-color)} /*sidebar decorations*/
 #sidebar_bottom.mainpage a:hover {color: var(--main2-font1-color);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage a {color: var(--main2-font2-color);} /*sidebar buttons*/
-h2, h3 {color: var(--main2-font1-color);} /*titles*/
+h2, h3 {color: var(--main4-font1-color);} /*titles*/
 #container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
 #mainpage_table.mainpage {color: var(--main3-font1-color);} /*mainpage table text*/
 .mainpg_cont_gallery div a {color: var(--main3-font1-color);} /*mainpage table text link*/
@@ -22,13 +22,14 @@ h2, h3 {color: var(--main2-font1-color);} /*titles*/
 hr.hr_contrast {background-color: var(--main02-color);} /*light on dark theme*/
 hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #container.header {background-color: var(--main05-color);} /*header nav bar*/
-#sidebar.mainpage {background-color: var(--main03-color);} /*sidebar bottom*/
+#sidebar.mainpage {background-color: var(--main04-color);} /*sidebar bottom*/
 #container.mainpage {background-color: var(--main03-color);} /*mainpage scrollbar*/
 #mainpage_content.mainpage {background-color: var(--main02-color);} /*mainpage content*/
 #mainpage_table.mainpage {background-color: var(--main03-color);} /*mainpage table*/
-.mainpg_cont_gallery div p {background: var(--main01-color);} /*mainpage gallery text*/
+.mainpg_cont_gallery div p {background: var(--main05-color);} /*mainpage gallery text*/
 
 
+/*==========GOOD ONES==========*/
 html[yellow_vivid] {
     --main01-color: #ffd60a;
     --main02-color: #ffc300;
@@ -39,8 +40,23 @@ html[yellow_vivid] {
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
     --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(0,8,20);
-    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+}
+
+/*==========BEING TESTED==========*/
+html[neon] {
+    --main01-color: #7209b7;
+    --main02-color: #4cc9f0;
+    --main03-color: #4361ee;
+    --main04-color: #3a0ca3;
+    --main05-color: #f72585;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
 }
 html[blue_enterprise] {
     --main01-color: #ffffff;
