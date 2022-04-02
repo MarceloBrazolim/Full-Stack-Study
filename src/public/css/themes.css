@@ -5,6 +5,7 @@ main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
 #sidebar_top.mainpage {box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);} /*sidebar banner shadow*/
 .mainpg_cont_gallery div img {box-shadow: 0px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery images shadow*/
 .mainpg_cont_gallery div p {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);} /*gallery text shadow*/
+.mainpg_cont_cv div embed {box-shadow: 4px 4px 7px 1px rgba(16, 16, 16, 0.5);} /*embed*/
 
 /*=====COLOR=====*/
 main {color: var(--main2-font1-color);} /*????*/
@@ -30,12 +31,12 @@ hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 
 
 /*==========GOOD ONES==========*/
-html[yellow_vivid] {
-    --main01-color: #ffd60a;
-    --main02-color: #ffc300;
-    --main03-color: #003566;
-    --main04-color: #001d3d;
-    --main05-color: #000814;
+html[metro] {
+    --main01-color: #EEEEEE;
+    --main02-color: #FFFFFF;
+    --main03-color: #515151;
+    --main04-color: #515151;
+    --main05-color: #00B4FF;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
@@ -50,6 +51,20 @@ html[shades_of_teal] {
     --main03-color: #3c6e71;
     --main04-color: #284b63;
     --main05-color: #353535;
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(0,8,20);
+}
+html[yellow_vivid] {
+    --main01-color: #ffd60a;
+    --main02-color: #ffc300;
+    --main03-color: #003566;
+    --main04-color: #001d3d;
+    --main05-color: #000814;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
@@ -169,38 +184,54 @@ html[skate_ride] {
     --main3-font2-color: rgba(255,255,255, 0.88);
     --main4-font1-color: rgb(0,8,20);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[pink_scatterous] {
+    --main01-color: #0a2463;
+    --main02-color: #3e92cc;
+    --main03-color: #fffaff;
+    --main04-color: #d8315b;
+    --main05-color: #1e1b18;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
     --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
+}
+html[bland_city] {
+    --main01-color: #565264;
+    --main02-color: #706677;
+    --main03-color: #a6808c;
+    --main04-color: #ccb7ae;
+    --main05-color: #d6cfcb;
+    --main1-font1-color: rgb(0,8,20);
+    --main1-font2-color: rgba(0,8,20, 0.9);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(255,255,255);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[bland_city2] {
+    --main01-color: #d6cfcb;
+    --main02-color: #ccb7ae;
+    --main03-color: #a6808c;
+    --main04-color: #706677;
+    --main05-color: #565264;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
     --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[blue_deep] {
+    --main01-color: #003459;
+    --main02-color: #ffffff;
+    --main03-color: #007ea7;
+    --main04-color: #00a8e8;
+    --main05-color: #00171f;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
@@ -208,14 +239,13 @@ html[template] {
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
     --main4-font1-color: rgb(0,8,20);
-    --main4-font2-color: rgba(0,8,20, 0.9);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[blue_dark] {
+    --main01-color: #302b27;
+    --main02-color: #f5f3f5;
+    --main03-color: #576ca8;
+    --main04-color: #274690;
+    --main05-color: #1b264f;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
@@ -223,14 +253,13 @@ html[template] {
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
     --main4-font1-color: rgb(0,8,20);
-    --main4-font2-color: rgba(0,8,20, 0.9);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[blue_ocean] {
+    --main01-color: #005F6B;
+    --main02-color: #00B4CC;
+    --main03-color: #343838;
+    --main04-color: #008C9E;
+    --main05-color: #343838;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
     --main2-font1-color: rgb(255,255,255);
@@ -238,67 +267,75 @@ html[template] {
     --main3-font1-color: rgb(255,255,255);
     --main3-font2-color: rgba(255,255,255, 0.88);
     --main4-font1-color: rgb(0,8,20);
-    --main4-font2-color: rgba(0,8,20, 0.9);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[skate_world] {
+    --main01-color: #00A8C6;
+    --main02-color: #40C0CB;
+    --main03-color: #F9F2E7;
+    --main04-color: #AEE239;
+    --main05-color: #8FBE00;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
     --main4-font1-color: rgb(0,8,20);
-    --main4-font2-color: rgba(0,8,20, 0.9);
 }
-html[template] {
-    --main01-color: #;
-    --main02-color: #;
-    --main03-color: #;
-    --main04-color: #;
-    --main05-color: #;
+html[skate_world2] {
+    --main01-color: #8FBE00;
+    --main02-color: #AEE239;
+    --main03-color: #F9F2E7;
+    --main04-color: #40C0CB;
+    --main05-color: #00A8C6;
     --main1-font1-color: rgb(255,255,255);
     --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
     --main4-font1-color: rgb(0,8,20);
-    --main4-font2-color: rgba(0,8,20, 0.9);
 }
-
+html[raindrop] {
+    --main01-color: #E8F3F8;
+    --main02-color: #DBE6EC;
+    --main03-color: #C2CBCE;
+    --main04-color: #A4BCC2;
+    --main05-color: #81A8B8;
+    --main1-font1-color: rgb(0,8,20);
+    --main1-font2-color: rgba(0,8,20, 0.9);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
+}
 
 
 /*
-html[x] {
+html[template] {
     --main01-color: #;
     --main02-color: #;
     --main03-color: #;
     --main04-color: #;
     --main05-color: #;
-    --main06-color: #;
-    --main07-color: #;
-    --main08-color: #;
-    --main09-color: #;
-    --main10-color: #;
 }
 
-            ==========COLOR==========
-    --mainX-font1-color: rgb(255,255,255);
-    --mainX-font2-color: rgba(255,255,255, 0.88);
+        ==========LIGHT==========
+    --main1-font1-color: rgb(0,8,20);
+    --main1-font2-color: rgba(0,8,20, 0.9);
+    --main2-font1-color: rgb(0,8,20);
+    --main2-font2-color: rgba(0,8,20, 0.9);
+    --main3-font1-color: rgb(255,255,255);
+    --main3-font2-color: rgba(255,255,255, 0.88);
+    --main4-font1-color: rgb(255,255,255);
 
-    --mainX-font1-color: rgb(0,0,0);
-    --mainX-font2-color: rgba(0,0,0, 0.9);
-
-
-
-    --mainX-font1-color: rgb(189,193,197);
-    --mainX-font2-color: rgba(189,193,197, 0.9);
-
-    --mainX-font1-color: rgb(0,8,20);
-    --mainX-font2-color: rgba(0,8,20, 0.9);
+        ==========DARK==========
+    --main1-font1-color: rgb(255,255,255);
+    --main1-font2-color: rgba(255,255,255, 0.88);
+    --main2-font1-color: rgb(255,255,255);
+    --main2-font2-color: rgba(255,255,255, 0.88);
+    --main3-font1-color: rgb(0,8,20);
+    --main3-font2-color: rgba(0,8,20, 0.9);
+    --main4-font1-color: rgb(0,8,20);
 */
