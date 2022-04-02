@@ -15,7 +15,9 @@
 .mainpg_cont_gallery div p {
     letter-spacing: 0.4px;
     border-radius: 0 0 5px 2px;
-    font-weight: 550;
+    font-weight: 500;
+    font-size: 12pt;
+    line-height: 20px;
     padding-left: 10px;
     padding-right: 5px;
     padding-bottom: 1rem;
