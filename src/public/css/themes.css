@@ -8,70 +8,92 @@ main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
 .mainpg_cont_cv div embed {box-shadow: 4px 4px 7px 1px rgba(16, 16, 16, 0.5);} /*embed*/
 
 /*=====COLOR=====*/
-main {color: var(--main2-font1-color);} /*????*/
-#container.header a:hover {color: var(--main1-font1-color);} /*header text hover*/
-#container.header a {color: var(--main1-font2-color);} /*header text*/
-#sidebar_bottom.mainpage ul {color: var(--main2-font1-color)} /*sidebar decorations*/
-#sidebar_bottom.mainpage a:hover {color: var(--main2-font1-color);} /*sidebar buttons hover*/
-#sidebar_bottom.mainpage a {color: var(--main2-font2-color);} /*sidebar buttons*/
-h2, h3 {color: var(--main3-font1-color);} /*titles*/
-/*  #container.mainpage {color: var(--main3-font1-color);} /*mainpage general*/
-#mainpage_table.mainpage {color: var(--main3-font1-color);} /*mainpage table text*/
-.mainpg_cont_gallery div a {color: var(--main4-font1-color);} /*mainpage table text link*/
+main {color: var(--font2-color);}
+#container.header a:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
+#container.header a {color: var(--font1-color);} /*header text*/
+#sidebar_bottom.mainpage ul {color: var(--font2-color)} /*sidebar decorations*/
+#sidebar_bottom.mainpage a:hover {color: var(--font2h-color);} /*sidebar buttons hover*/
+#sidebar_bottom.mainpage a {color: var(--font2-color);} /*sidebar buttons*/
+h2, h3 {color: var(--font3-color);} /*titles*/
+#mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
+.mainpg_cont_gallery div a:hover {color: var(--font4h-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a {color: var(--font4-color);}
+#start.header [style="text-decoration: underline;"]:hover {color: var(--font5-color); opacity: 0.88;}
+#start.header [style="text-decoration: underline;"] {color: var(--font5-color);}
 
 /*=====BACKGROUND=====*/
-hr.hr_contrast {background-color: var(--main2-font1-color);} /*light on dark theme*/
+hr.hr_contrast {background-color: var(--font2-color);} /*light on dark theme*/
 hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
-#container.header {background-color: var(--main05-color);} /*header*/
-#sidebar.mainpage {background-color: var(--main04-color);} /*sidebar*/
+#container.header {background-color: var(--main01-color);} /*header*/
+#sidebar.mainpage {background-color: var(--main02-color);} /*sidebar*/
 #container.mainpage {background-color: var(--main03-color);} /*scrollbar*/
 #mainpage_table.mainpage {background-color: var(--main03-color);} /*mainpage table*/
-.mainpg_cont_gallery div p {background: var(--main02-color);} /*mainpage content*/
-#mainpage_content.mainpage {background-color: var(--main01-color);} /*mainpage background*/
+.mainpg_cont_gallery div a:hover p {background-color: var(--main04h-color);} /*mainpage content*/
+.mainpg_cont_gallery div p {background-color: var(--main04-color);}
+#mainpage_content.mainpage {background-color: var(--main05-color);} /*mainpage background*/
 
 
 /*==========GOOD ONES==========*/
+html[dedsec] {
+    --main01-color: #e5e5de;
+    --main02-color: #131313;
+    --main03-color: #131313;
+    --main04-color: #FFFFFF;
+    --main04h-color: #f96900;
+    --main05-color: #2c2c2c;
+    --font1-color: rgb(0,0,0);
+    --font2-color: rgb(229,229,222);
+    --font2h-color: rgb(249,105,0);
+    --font3-color: rgb(255,255,255);
+    --font4-color: rgb(0,8,20);
+    --font4h-color: rgb(229,229,222);
+    --font5-color: rgb(218,42,0);
+}
+
 html[metro] {
-    --main01-color: #EEEEEE;
-    --main02-color: #FFFFFF;
+    --main01-color: #00B4FF;
+    --main02-color: #515151;
     --main03-color: #515151;
-    --main04-color: #515151;
-    --main05-color: #00B4FF;
-    --main1-font1-color: rgb(255,255,255);
-    --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
-    --main4-font1-color: rgb(0,8,20);
+    --main04-color: #FFFFFF;
+    --main04h-color: #FFFFFF;
+    --main05-color: #EEEEEE;
+    --font1-color: rgb(255,255,255);
+    --font2-color: rgb(255,255,255);
+    --font2h-color: rgb(255,255,255);
+    --font3-color: rgb(255,255,255);
+    --font4-color: rgb(0,8,20);
+    --font4h-color: rgb(0,8,20);
+    --font5-color: rgb(255,255,255);
 }
 html[shades_of_teal] {
-    --main01-color: #ffffff;
-    --main02-color: #d9d9d9;
+    --main01-color: #353535;
+    --main02-color: #284b63;
     --main03-color: #3c6e71;
-    --main04-color: #284b63;
-    --main05-color: #353535;
-    --main1-font1-color: rgb(255,255,255);
-    --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
-    --main4-font1-color: rgb(0,8,20);
+    --main04-color: #d9d9d9;
+    --main04h-color: #d9d9d9;
+    --main05-color: #ffffff;
+    --font1-color: rgb(255,255,255);
+    --font2-color: rgb(255,255,255);
+    --font2h-color: rgb(255,255,255);
+    --font3-color: rgb(255,255,255);
+    --font4-color: rgb(0,8,20);
+    --font4h-color: rgb(0,8,20);
+    --font5-color: rgb(255,255,255);
 }
 html[yellow_vivid] {
-    --main01-color: #ffd60a;
-    --main02-color: #ffc300;
+    --main01-color: #000814;
+    --main02-color: #001d3d;
     --main03-color: #003566;
-    --main04-color: #001d3d;
-    --main05-color: #000814;
-    --main1-font1-color: rgb(255,255,255);
-    --main1-font2-color: rgba(255,255,255, 0.88);
-    --main2-font1-color: rgb(255,255,255);
-    --main2-font2-color: rgba(255,255,255, 0.88);
-    --main3-font1-color: rgb(255,255,255);
-    --main3-font2-color: rgba(255,255,255, 0.88);
-    --main4-font1-color: rgb(0,8,20);
+    --main04-color: #ffc300;
+    --main04h-color: #ffc300;
+    --main05-color: #ffd60a;
+    --font1-color: rgb(255,255,255);
+    --font2-color: rgb(255,255,255);
+    --font2h-color: rgb(255,255,255);
+    --font3-color: rgb(255,255,255);
+    --font4-color: rgb(0,8,20);
+    --font4h-color: rgb(0,8,20);
+    --font5-color: rgb(255,255,255);
 }
 
 /*==========BEING TESTED==========*/
