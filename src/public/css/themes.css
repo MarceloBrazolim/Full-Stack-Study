@@ -17,6 +17,7 @@ main {color: var(--font2-color);}
 #sidebar_bottom.mainpage a:hover {color: var(--font2h-color);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage a {color: var(--font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--font3-color);} /*titles*/
+#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2h-color);}
 #mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
 .mainpg_cont_gallery div a:hover {color: var(--font4h-color);} /*mainpage table text link*/
 .mainpg_cont_gallery div a {color: var(--font4-color);}

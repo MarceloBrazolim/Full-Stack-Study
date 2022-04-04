@@ -11,9 +11,9 @@
 }
 #sidebar_bottom.mainpage {
     grid-area: sidebar_bottom;
-    padding: 20px 24px 10px;
 }
 #sidebar_bottom.mainpage a {
+    padding: 15px 24px 10px 10px;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -21,6 +21,14 @@
 }
 #sidebar_bottom.mainpage a:hover {
     text-decoration: underline;
+}
+#sidebar.mainpage hr {
+    margin-top: 2rem !important;
+    width: 100%;
+    padding: 0;
+    height: 3px !important;
+    opacity: .5 !important;
+    border: 0;
 }
 .mainpage ul {
     list-style: none;
