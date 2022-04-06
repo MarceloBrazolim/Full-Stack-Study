@@ -13,13 +13,11 @@ document.getElementById("mainpage_table").innerHTML='<div class="row-md-12"><h2>
 function nav_page_selector(index) {
     switch (index) {
         case 0:
-            document.getElementById("mainpage_table").innerHTML='<div class="row-md-12"><h2>Home Page</h2></div><div class="mainpg_cont_home row"><div><img src="./img/spongebob-dance.gif" alt="a"></div></div>';
+            var htmlcontent = '<div class="row-md-12"><h2>Home Page</h2></div><div class="mainpg_cont_home row"><div><img src="./img/spongebob-dance.gif" alt="a"></div></div>';
             break;
         case 1:
-            document.getElementById("mainpage_table").innerHTML='<div class="row-md-12"><h2>Home Page</h2></div><div class="mainpg_cont_home row"><div><img src="./img/dudu.jpg" alt="a"></div></div>';
-            break;
-    
-        default:
-            break;
+            var htmlcontent = '<div class="row-md-12"><h2>Home Page</h2></div><div class="mainpg_cont_home row"><div><img src="./img/dudu.jpg" alt="a"></div></div>';
+        break;
     }
+    document.getElementById("mainpage_table").innerHTML=htmlcontent
 }
