@@ -14,13 +14,13 @@ main {color: var(--font2-color);}
 #container.header a:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
 #container.header a {color: var(--font1-color);} /*header text*/
 #sidebar_bottom.mainpage ul {color: var(--font2-color)} /*sidebar decorations*/
-#sidebar_bottom.mainpage li[on] {color: var(--font2h-color);} /*sidebar buttons select*/
-#sidebar_bottom.mainpage li:hover {color: var(--font2h-color);} /*sidebar buttons hover*/
+#sidebar_bottom.mainpage li.active {color: var(--font2-color-h);} /*sidebar buttons select*/
+#sidebar_bottom.mainpage li:hover {color: var(--font2-color-h);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage li {color: var(--font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--font3-color);} /*titles*/
-#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2h-color);}
+#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2-color-h);}
 #mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
-.mainpg_cont_gallery div a:hover {color: var(--font4h-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a:hover {color: var(--font4-color-h);} /*mainpage table text link*/
 .mainpg_cont_gallery div a {color: var(--font4-color);}
 #start.header [style="text-decoration: underline;"]:hover {color: var(--font5-color); opacity: 0.88;} /*selected header*/
 #start.header [style="text-decoration: underline;"] {color: var(--font5-color);}
@@ -32,7 +32,7 @@ hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #sidebar.mainpage {background-color: var(--main02-color);} /*sidebar*/
 #container.mainpage {background-color: var(--main03-color);} /*scrollbar*/
 /*#mainpage_table.mainpage {background-color: var(--main03-color);} /*mainpage table*/
-.mainpg_cont_gallery div a:hover p {background-color: var(--main04h-color);} /*mainpage content*/
+.mainpg_cont_gallery div a:hover p {background-color: var(--main04-color-h);} /*mainpage content*/
 .mainpg_cont_gallery div p {background-color: var(--main04-color);}
 #mainpage_content.mainpage {background-color: var(--main05-color);} /*mainpage background*/
 
@@ -43,14 +43,14 @@ html[dedsec] {
     --main02-color: #131313;
     --main03-color: #131313;
     --main04-color: #FFFFFF;
-    --main04h-color: #f96900;
+    --main04-color-h: #f96900;
     --main05-color: #2c2c2c;
     --font1-color: rgb(0,0,0);
     --font2-color: rgb(229,229,222);
-    --font2h-color: rgb(249,105,0);
+    --font2-color-h: rgb(249,105,0);
     --font3-color: rgb(255,255,255);
     --font4-color: rgb(0,8,20);
-    --font4h-color: rgb(229,229,222);
+    --font4-color-h: rgb(229,229,222);
     --font5-color: rgb(218,42,0);
 }
 
@@ -59,14 +59,14 @@ html[metro] {
     --main02-color: #515151;
     --main03-color: #515151;
     --main04-color: #FFFFFF;
-    --main04h-color: #FFFFFF;
+    --main04-color-h: #FFFFFF;
     --main05-color: #EEEEEE;
     --font1-color: rgb(255,255,255);
     --font2-color: rgb(255,255,255);
-    --font2h-color: rgb(255,255,255);
+    --font2-color-h: rgb(255,255,255);
     --font3-color: rgb(255,255,255);
     --font4-color: rgb(0,8,20);
-    --font4h-color: rgb(0,8,20);
+    --font4-color-h: rgb(0,8,20);
     --font5-color: rgb(255,255,255);
 }
 html[shades_of_teal] {
@@ -74,14 +74,14 @@ html[shades_of_teal] {
     --main02-color: #284b63;
     --main03-color: #3c6e71;
     --main04-color: #d9d9d9;
-    --main04h-color: #d9d9d9;
+    --main04-color-h: #d9d9d9;
     --main05-color: #ffffff;
     --font1-color: rgb(255,255,255);
     --font2-color: rgb(255,255,255);
-    --font2h-color: rgb(255,255,255);
+    --font2-color-h: rgb(255,255,255);
     --font3-color: rgb(255,255,255);
     --font4-color: rgb(0,8,20);
-    --font4h-color: rgb(0,8,20);
+    --font4-color-h: rgb(0,8,20);
     --font5-color: rgb(255,255,255);
 }
 html[yellow_vivid] {
@@ -89,14 +89,14 @@ html[yellow_vivid] {
     --main02-color: #001d3d;
     --main03-color: #003566;
     --main04-color: #ffc300;
-    --main04h-color: #ffc300;
+    --main04-color-h: #ffc300;
     --main05-color: #ffd60a;
     --font1-color: rgb(255,255,255);
     --font2-color: rgb(255,255,255);
-    --font2h-color: rgb(255,255,255);
+    --font2-color-h: rgb(255,255,255);
     --font3-color: rgb(255,255,255);
     --font4-color: rgb(0,8,20);
-    --font4h-color: rgb(0,8,20);
+    --font4-color-h: rgb(0,8,20);
     --font5-color: rgb(255,255,255);
 }
 
