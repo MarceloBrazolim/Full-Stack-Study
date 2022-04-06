@@ -12,14 +12,16 @@
 #sidebar_bottom.mainpage {
     grid-area: sidebar_bottom;
 }
-#sidebar_bottom.mainpage a {
-    padding: 1px 24px 1px 10px;
+#sidebar_bottom.mainpage li {
+    padding: 1px 15px 1px 10px;
     text-decoration: none;
-    font-weight: 600;
     letter-spacing: 0.5px;
     transition: color 0.1s;
+    margin-right: 25px;
+    font-weight: 600;
+    cursor: pointer;
 }
-#sidebar_bottom.mainpage a:hover {
+#sidebar_bottom.mainpage li:hover {
     text-decoration: underline;
 }
 #sidebar.mainpage hr {

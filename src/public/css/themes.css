@@ -14,14 +14,15 @@ main {color: var(--font2-color);}
 #container.header a:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
 #container.header a {color: var(--font1-color);} /*header text*/
 #sidebar_bottom.mainpage ul {color: var(--font2-color)} /*sidebar decorations*/
-#sidebar_bottom.mainpage a:hover {color: var(--font2h-color);} /*sidebar buttons hover*/
-#sidebar_bottom.mainpage a {color: var(--font2-color);} /*sidebar buttons*/
+#sidebar_bottom.mainpage li[on] {color: var(--font2h-color);} /*sidebar buttons select*/
+#sidebar_bottom.mainpage li:hover {color: var(--font2h-color);} /*sidebar buttons hover*/
+#sidebar_bottom.mainpage li {color: var(--font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--font3-color);} /*titles*/
 #sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2h-color);}
 #mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
 .mainpg_cont_gallery div a:hover {color: var(--font4h-color);} /*mainpage table text link*/
 .mainpg_cont_gallery div a {color: var(--font4-color);}
-#start.header [style="text-decoration: underline;"]:hover {color: var(--font5-color); opacity: 0.88;}
+#start.header [style="text-decoration: underline;"]:hover {color: var(--font5-color); opacity: 0.88;} /*selected header*/
 #start.header [style="text-decoration: underline;"] {color: var(--font5-color);}
 
 /*=====BACKGROUND=====*/
