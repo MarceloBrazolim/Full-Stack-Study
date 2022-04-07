@@ -11,23 +11,23 @@ main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
 
 /*=====COLOR=====*/
 main {color: var(--font2-color);}
-#container.header a:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
-#container.header a {color: var(--font1-color);} /*header text*/
+#container.header span:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
+#container.header span {color: var(--font1-color);} /*header text*/
 #sidebar_bottom.mainpage ul {color: var(--font2-color)} /*sidebar decorations*/
 #sidebar_bottom.mainpage li.active {color: var(--font2-color-h);} /*sidebar buttons select*/
 #sidebar_bottom.mainpage li:hover {color: var(--font2-color-h);} /*sidebar buttons hover*/
 #sidebar_bottom.mainpage li {color: var(--font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--font3-color);} /*titles*/
-#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2-color-h);}
+/*#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2-color-h);}*/
+hr.hr_contrast {background-color: var(--font2-color);} /*light on dark theme*/
+hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
 .mainpg_cont_gallery div a:hover {color: var(--font4-color-h);} /*mainpage table text link*/
 .mainpg_cont_gallery div a {color: var(--font4-color);}
-#start.header [style="text-decoration: underline;"]:hover {color: var(--font5-color); opacity: 0.88;} /*selected header*/
-#start.header [style="text-decoration: underline;"] {color: var(--font5-color);}
+#start.header .active:hover {color: var(--font5-color); opacity: 0.88;} /*selected header*/
+#start.header .active {color: var(--font5-color);}
 
 /*=====BACKGROUND=====*/
-hr.hr_contrast {background-color: var(--font2-color);} /*light on dark theme*/
-hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #container.header {background-color: var(--main01-color);} /*header*/
 #sidebar.mainpage {background-color: var(--main02-color);} /*sidebar*/
 #container.mainpage {background-color: var(--main03-color);} /*scrollbar*/
@@ -48,7 +48,7 @@ html[dedsec] {
     --font1-color: rgb(0,0,0);
     --font2-color: rgb(229,229,222);
     --font2-color-h: rgb(249,105,0);
-    --font3-color: rgb(255,255,255);
+    --font3-color: rgb(240, 235, 235);
     --font4-color: rgb(0,8,20);
     --font4-color-h: rgb(229,229,222);
     --font5-color: rgb(218,42,0);

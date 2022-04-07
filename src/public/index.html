@@ -20,13 +20,13 @@
             <!--==========HEADER==========-->
             <!-------start------->
             <div id="start" class="header">
-                <a href="./index.html" style="text-decoration: underline;">Home</a>
-                <a href="./mycv.html">My CV</a>
-                <a href="./social.html">Social</a>
+                <span class="head active" onclick="head_span(0)">Home</span>
+                <span class="head" onclick="head_span(1)">My CV</span>
+                <span class="head" onclick="head_span(2)">Social</span>
             </div>
             <!-------end------->
             <div id="end" class="header">
-                <a id="login" href="">Login</a>
+                <span id="login">Login</span>
             </div>
         </article>
         <section id="container" class="mainpage">
@@ -40,24 +40,8 @@
                 </div>
                 <div id="sidebar_bottom" class="mainpage">
                     <ul>
-                        <li class="nav_li active" onclick="nav(0)">Home Page 1</li>
-                        <li class="nav_li" onclick="nav(1)">Home Page 2</li>
-                            <ul>
-                                <li>dolor</li>
-                                <li>sit</li>
-                                <li>amet</li>
-                            </ul>
-                        <li>consectetur</li>
-                        <li>adipisicing</li>
-                        <li>elit</li>
-                            <ul>
-                                <li>Vitae</li>
-                                <li>eaque</li>
-                            </ul>
-                        <li>eiciendis</li>
-                            <ul>
-                                <li>ex</li>
-                            </ul>
+                        <li class="nav active" onclick="nav(0)">Home Page 1</li>
+                        <li class="nav" onclick="nav(1)">Home Page 2</li>
                     </ul>
                     <hr class="hr_contrast">
                 </div>
