@@ -11,6 +11,7 @@ function hed(n) { // Header button resetter
         document.getElementById("start").getElementsByTagName("span")[index].classList.remove("active");
     }
     select(elem, n);
+    head_page_selector(n);
 }
 function nav(n) { // Sidebar button resetter
     let elem = document.querySelectorAll(".nav")
@@ -20,6 +21,7 @@ function nav(n) { // Sidebar button resetter
     select(elem, n);
     nav_page_selector(n)
 }
+
 function select(elem, index) { // Highlights buttons
     elem[index].classList.add("active");
 }
