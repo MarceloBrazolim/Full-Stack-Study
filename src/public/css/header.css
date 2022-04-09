@@ -1,16 +1,17 @@
 #container.header {
     overflow: hidden;
     width: auto;
-    padding: 0 16px;
+    height: 100%;
+    padding: 0;
     align-items: center;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: space-between;
     cursor: default;
 }
 #container.header span {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 450;
     letter-spacing: 1px;
 }
 #container.header span:hover, #container.header span.active {
@@ -18,6 +19,55 @@
 }
 #container.header span:hover {
     cursor: pointer;
+}
+
+#container.header ul {
+    padding: 0 10px;
+    margin: 0;
+    font-size: 0;
+    list-style-type: none;
+}
+#container.header ul li {
+    color: black;
+    font-size: 1rem;
+    font-weight: 450;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+#container.header ul li:hover {
+    cursor: pointer;
+    color: grey;
+}
+#container.header ul li ul {
+    display: none;
+}
+#container.header ul li:hover ul {
+    display: block;
+    margin-top: 15px;
+    width: 200px;
+    top: 19px;
+    left: 0;
+    position: absolute;
+}
+#container.header ul li:hover ul li {
+    display: block;
+    background-color: #e7e7e7;
+}
+#container.header ul li:hover ul li span {
+    float: right;
+    padding: 1px 4px;
+    text-align: center;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    color: yellow;
+    background-color: green;
+}
+#container.header ul li:hover ul li:hover {
+    background-color: #e0e0e0;
+}
+#container.header ul li:hover ul li:hover span {
+    background-color: blue;
 }
 
 
