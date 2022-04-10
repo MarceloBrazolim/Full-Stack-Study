@@ -24,3 +24,10 @@ h2, h3 {
     flex-direction: row;
     cursor: default;
 }
+
+#container.header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}

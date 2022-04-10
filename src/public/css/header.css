@@ -29,8 +29,7 @@
 }
 #container.header ul li:hover ul li {
     display: block;
-    border-top: 1px solid #e2e2e2;
-    background-color: #e7e7e7;
+    border-top: 1px solid #e0e0e0;
 }
 #container.header ul li:hover ul li span {
     float: right;
@@ -41,13 +40,7 @@
     text-decoration: none;
     font-size: 0.6rem;
     letter-spacing: 1px;
+    border: 1px solid var(--main04-color-h);
     border-radius: 3px;
-    color: yellow;
-    background-color: green;
-}
-#container.header ul li:hover ul li:hover {
-    background-color: #e0e0e0;
-}
-#container.header ul li:hover ul li:hover span {
-    background-color: blue;
+    color: black;
 }

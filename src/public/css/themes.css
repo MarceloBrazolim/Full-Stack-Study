@@ -28,11 +28,16 @@ hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
 #start.header .active {color: var(--font5-color);}
 
 /*=====BACKGROUND=====*/
-#container.header {background-color: var(--main01-color);} /*header*/
+#container.header {background-color: #e5e5def5;} /*header*/
 #mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main04-color-h);} /*mainpage content*/
 #mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main04-color);}
 #content #mainpage_content.mainpage {background-color: var(--main05-color);} /*background*/
 :root {background-color: var(--main05-color)}
+
+#container.header ul li:hover ul li {background-color: #e5e5def5;}
+#container.header ul li:hover ul li:hover {background-color: #e5e5def5;}
+#container.header ul li:hover ul li span {background-color: var(--main04-color-h);}
+#container.header ul li:hover ul li:hover span {background-color: var(--main04-color);}
 
 
 /*==========GOOD ONES==========*/
