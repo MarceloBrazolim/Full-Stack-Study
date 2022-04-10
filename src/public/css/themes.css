@@ -62,11 +62,11 @@ html[theme="popscycle"] {
 
 html[theme="purple"] {
     --main01-color: #d562be;
-    --main02-color: #ebc1ee;
-    --main03-color: #e4def9;
+    --main02-color: #e4def9;
+    --main03-color: #ebc1ee;
     --main04-color: #ada1e6;
-    --main02-color-h: #ebc1eef5;
-    --main03-color-h: #e4def9f5;
+    --main02-color-h: #e4def9f5;
+    --main03-color-h: #ebc1eef5;
     --main04-color-h: #ada1e6f5;
     --main05-color: #605399;
     --font1-color: #d562be;

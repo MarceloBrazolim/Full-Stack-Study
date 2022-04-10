@@ -11,8 +11,6 @@
 // }
 
 // Mainpage default
-let theme = "dedsec"
-theme_selc(theme)
 let htmlcontent = "home"
 page_nav(htmlcontent);
 function page_nav(index) {
@@ -32,17 +30,8 @@ function page_nav(index) {
     }
     document.getElementById("mainpage_content").innerHTML=htmlcontent;
 }
-function theme_selc(index) {
-    switch (index) {
-        case 'theme-dedsec':
-            theme = 'dedsec';
-            break;
-        case 'theme-popscycle':
-            theme = 'popscycle';
-            break;
-        case 'theme-purple':
-            theme = 'purple';
-            break;
-    }
+
+theme_selc("dedsec");
+function theme_selc(theme) {
     document.getElementsByTagName("html")[0].setAttribute("theme", theme);
 }
