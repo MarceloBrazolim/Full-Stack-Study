@@ -1,38 +1,44 @@
-main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
+main {scrollbar-color: rgb(170, 170, 170) rgb(0, 0, 0);}
 /*=====COLOR=====*/
 main {color: var(--font2-color);}
-h2, h3 {color: var(--font3-color);} /*titles*/
-.mainpg_cont_gallery div a:hover {color: var(--font4-color-h);} /*mainpage table text link*/
-.mainpg_cont_gallery div a {color: var(--font4-color);}
+h2, h3 {color: var(--font4-color);} /*titles*/
+/*header*/
+#container.header ul li {color: var(--font3-color);} /*idle color*/
+#container.header ul li:hover {color: var(--font2-color);} /*hover color*/
+#container.header ul li:hover ul li span {color: var(--font3-color);}
+#container.header ul li:hover ul li:hover span {color: var(--font1-color);}
+/*mainpage galery*/
+.mainpg_cont_gallery div a:hover {color: var(--font4-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a {color: var(--font3-color);}
 
 /*=====BACKGROUND=====*/
-#container.header {background-color: #e5e5def5;} /*header*/
-#mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main04-color-h);} /*mainpage content*/
-#mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main04-color);}
-#content #mainpage_content.mainpage {background-color: var(--main05-color);} /*background*/
+#content #mainpage_content.mainpage {background-color: var(--main05-color);} /*mainpage bg*/
 :root {background-color: var(--main05-color)}
-
-#container.header ul li:hover ul li {background-color: #e5e5def5;}
-#container.header ul li:hover ul li:hover {background-color: #e5e5def5;}
-#container.header ul li:hover ul li span {background-color: var(--main04-color-h);}
-#container.header ul li:hover ul li:hover span {background-color: var(--main04-color);}
+/*header*/
+#container.header {background-color: var(--main02-color-h);}
+#container.header ul li:hover ul li:hover {background-color: var(--main04-color-h);}
+#container.header ul li:hover ul li:hover span {background-color: var(--main02-color);}
+#container.header ul li:hover ul li span {border: 1px solid var(--main01-color); background-color: var(--main01-color);}
+#container.header ul li:hover ul li {border-top: 1px solid var(--main04-color); background-color: var(--main03-color-h);}
+/*mainpage galery*/
+#mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main01-color);} /*text bg hover*/
+#mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main03-color);} /*text bg*/
 
 
 /*==========GOOD ONES==========*/
 html[dedsec] {
-    --main01-color: #e5e5de;
-    --main02-color: #131313;
-    --main03-color: #131313;
-    --main04-color: #FFFFFF;
-    --main04-color-h: #f96900;
+    --main01-color: #f96900;
+    --main02-color: #e5e5de;
+    --main03-color: #dbdbd7;
+    --main04-color: #d6d6d3;
+    --main02-color-h: #e5e5def5;
+    --main03-color-h: #dbdbd7f5;
+    --main04-color-h: #d6d6d3f5;
     --main05-color: #2c2c2c;
-    --font1-color: rgb(0,0,0);
-    --font2-color: rgb(229,229,222);
-    --font2-color-h: rgb(249,105,0);
-    --font3-color: rgb(240, 235, 235);
-    --font4-color: rgb(0,8,20);
-    --font4-color-h: rgb(229,229,222);
-    --font5-color: rgb(218,42,0);
+    --font1-color: #f96900;
+    --font2-color: #323a46;
+    --font3-color: #000814;
+    --font4-color: #f0ebeb;
 }
 
 html[metro] {
