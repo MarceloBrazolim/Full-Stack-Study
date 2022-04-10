@@ -1,3 +1,16 @@
+#container.header {
+    justify-content: space-between;
+    display: flex;
+}
+#start {
+    display: flex;
+    flex-direction: row;
+}
+#end {
+    display: flex;
+    flex-direction: row;
+}
+
 #container.header ul {
     padding: 0 10px;
     margin: 0;
@@ -20,10 +33,16 @@
 #container.header ul li:hover ul {
     display: block;
     margin-top: 15px;
-    width: 200px;
     top: 19px;
-    left: 0;
     position: absolute;
+}
+#start ul li:hover ul {
+    left: -15px;
+    width: 200px;
+}
+#end ul li:hover ul {
+    right: -15px;
+    width: 120px;
 }
 #container.header ul li:hover ul li {
     display: block;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dedsec lang="pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
@@ -22,29 +22,41 @@
     <main id="content">
         <!--==========HEADER==========-->
         <article id="container" class="header">
-            <ul>
+            <!--menu-->
+            <div id="start">
+              <ul>
                 <li onclick="page_nav('home')">Home</li>
                 <li onclick="page_nav('puts')">Puts</li>
                 <li>About <i class="fa fa-angle-down"></i>
-                    <ul>
-                        <li onclick="page_nav('mycv')">My CV</li>
-                    </ul>
+                  <ul>
+                    <li onclick="page_nav('mycv')"> My CV <span>UPDATED!</span>
+                    </li>
+                  </ul>
                 </li>
                 <li onclick="page_nav('forum')">Blog</li>
-                <li>
-                    Promocionais
-                    <i class="fa fa-angle-down"></i>
-                    <ul>
-                        <li>Parceirias
-                            <span>NEW!</span>
-                        </li>
-                        <li>Patrocínio
-                            <span>LIMITADO!</span>
-                        </li>
-                    </ul>
+                <li> Promocionais <i class="fa fa-angle-down"></i>
+                  <ul>
+                    <li>Parceirias <span>NEW!</span>
+                    </li>
+                    <li>Patrocínio <span>LIMITADO!</span>
+                    </li>
+                  </ul>
                 </li>
-            </ul>
-        </article>
+              </ul>
+            </div>
+            <!--themes-->
+            <div id="end">
+              <ul>
+                <li>Themes <i class="fa fa-angle-down"></i>
+                  <ul>
+                    <li onclick="theme_selc('theme-dedsec')">DedSec</li>
+                    <li onclick="theme_selc('theme-popscycle')">Popscycle</li>
+                    <li onclick="theme_selc('theme-purple')">Purple</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </article>
         <!--==========MAINPAGE==========-->
         <section id="mainpage_content" class="mainpage">
         </section>
