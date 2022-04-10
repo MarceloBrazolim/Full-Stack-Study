@@ -1,31 +1,9 @@
 main {scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);}
-/*=====BOX-SHADOW=====*/
-/*
-#mainpage_content.mainpage {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.5) inset;}
-#mainpage_table.mainpage {box-shadow: 4px 1px 7px 1px rgba(16, 16, 16, 0.5);}/*
-#sidebar_top.mainpage {box-shadow: 0 1px 5px 1px rgba(16, 16, 16, 0.3);}
-.mainpg_cont_gallery div img {box-shadow: 0px 1px 7px 2px rgba(16, 16, 16, 0.3);}
-.mainpg_cont_gallery div p {box-shadow: 1px 1px 7px 2px rgba(16, 16, 16, 0.3);}
-.mainpg_cont_cv div embed {box-shadow: 4px 4px 7px 1px rgba(16, 16, 16, 0.5);} /*
-*/
-
 /*=====COLOR=====*/
 main {color: var(--font2-color);}
-#container.header span:hover {color: var(--font1-color); opacity: 0.88;} /*header text hover*/
-#container.header span {color: var(--font1-color);} /*header text*/
-#sidebar_bottom.mainpage ul {color: var(--font2-color)} /*sidebar decorations*/
-#sidebar_bottom.mainpage li.active {color: var(--font2-color-h);} /*sidebar buttons select*/
-#sidebar_bottom.mainpage li:hover {color: var(--font2-color-h);} /*sidebar buttons hover*/
-#sidebar_bottom.mainpage li {color: var(--font2-color);} /*sidebar buttons*/
 h2, h3 {color: var(--font3-color);} /*titles*/
-/*#sidebar_bottom.mainpage hr {border-bottom: 1px solid var(--font2-color-h);}*/
-hr.hr_contrast {background-color: var(--font2-color);} /*light on dark theme*/
-hr.hr_same {background-color: var(--main03-color);} /*dark on dark themes*/
-#mainpage_table.mainpage {color: var(--font3-color);} /*mainpage table text*/
 .mainpg_cont_gallery div a:hover {color: var(--font4-color-h);} /*mainpage table text link*/
 .mainpg_cont_gallery div a {color: var(--font4-color);}
-#start.header .active:hover {color: var(--font5-color); opacity: 0.88;} /*selected header*/
-#start.header .active {color: var(--font5-color);}
 
 /*=====BACKGROUND=====*/
 #container.header {background-color: #e5e5def5;} /*header*/
