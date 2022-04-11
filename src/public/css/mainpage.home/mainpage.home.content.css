@@ -1,4 +1,6 @@
 .mainpg_cont_home p {
+    word-break: break-all;
+    hyphens: auto;
     font-size: 1.1rem;
     font-weight: 250;
     margin: 0;
