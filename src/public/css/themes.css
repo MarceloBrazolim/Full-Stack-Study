@@ -3,17 +3,17 @@ main {scrollbar-color: rgb(170, 170, 170) rgb(0, 0, 0);}
 main {color: var(--font2-color);}
 h2, h3 {color: var(--font5-color);} /*titles*/
 /*header*/
-#container.header ul li {color: var(--font4-color);} /*idle color*/
-#container.header ul li:hover {color: var(--font3-color);} /*hover color*/
+#container.header ul li {color: var(--font4-color);}
+#container.header ul li:hover {color: var(--font3-color);}
 #container.header ul li:hover ul li:hover{color: var(--font2-color);}
 #container.header ul li:hover ul li span {color: var(--font5-color);}
 #container.header ul li:hover ul li:hover span {color: var(--font1-color);}
 /*mainpage galery*/
-.mainpg_cont_gallery div a:hover {color: var(--font5-color);} /*mainpage table text link*/
+.mainpg_cont_gallery div a:hover {color: var(--font5-color);}
 .mainpg_cont_gallery div a {color: var(--font4-color);}
 
 /*=====BACKGROUND=====*/
-#content #mainpage_content.mainpage {background-color: var(--main05-color);} /*mainpage bg*/
+#content {background-color: var(--main05-color);} /*mainpage bg*/
 :root {background-color: var(--main05-color)}
 /*header*/
 #container.header {background-color: var(--main02-color-h);}
@@ -22,8 +22,8 @@ h2, h3 {color: var(--font5-color);} /*titles*/
 #container.header ul li:hover ul li span {border: 1px solid var(--main01-color); background-color: var(--main01-color);}
 #container.header ul li:hover ul li {border-top: 1px solid var(--main04-color); background-color: var(--main03-color-h);}
 /*mainpage galery*/
-#mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main01-color-h);} /*text bg hover*/
-#mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main03-color);} /*text bg*/
+#mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main01-color-h);}
+#mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main03-color);}
 
 
 /*==========GOOD ONES==========*/
