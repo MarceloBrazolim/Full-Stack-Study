@@ -1,6 +1,6 @@
 main {scrollbar-color: rgb(170, 170, 170) rgb(0, 0, 0);}
 /*=====COLOR=====*/
-main {color: var(--font2-color);}
+main {color: var(--font5-color);}
 h2, h3 {color: var(--font5-color);} /*titles*/
 /*header*/
 #container.header ul li {color: var(--font4-color);}
@@ -41,7 +41,7 @@ html[theme="dedsec"] {
     --font2-color: #404957;
     --font3-color: #323a46;
     --font4-color: #000000;
-    --font5-color: #ffffff;
+    --font5-color: #f5f5f5;
 }
 html[theme="purple"] {
     --main01-color: #d562be;
