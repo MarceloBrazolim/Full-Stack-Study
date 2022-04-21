@@ -1,30 +1,34 @@
-.mainpg_cont_gallery div {
+#mainpage_content.mainpage #cont_gallery {
+    padding: 10px 20px;
+}
+
+
+#cont_gallery div {
     margin-bottom: 1rem;
 }
-.mainpg_cont_gallery div a {
+#cont_gallery div a {
     transition: color 0.2s;
     text-decoration: none;
 }
-.mainpg_cont_gallery div a:hover {
+#cont_gallery div a:hover {
     opacity: .9;
 }
-.mainpg_cont_gallery div img {
+#cont_gallery div img {
     border-radius: 2px 2px 0 0;
     border-bottom: none;
     width: 100%;
 }
-.mainpg_cont_gallery div p {
+#cont_gallery div p {
     letter-spacing: 0.4px;
     transition: background-color 0.2s;
     border-radius: 0 0 5px 2px;
     font-weight: 550;
-    font-size: 14pt;
+    font-size: 12pt;
     line-height: 20px;
     padding-left: 10px;
     padding-right: 5px;
     padding-bottom: 1rem;
     padding-top: 5px;
     border-top: none;
-    border: 1px solid rgba(10,10,10, 0.1);
     min-height: 70px;
 }

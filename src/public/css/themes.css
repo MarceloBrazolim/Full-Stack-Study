@@ -9,8 +9,8 @@ h2, h3 {color: var(--font5-color);} /*titles*/
 #container.header ul li:hover ul li span {color: var(--font5-color);}
 #container.header ul li:hover ul li:hover span {color: var(--font1-color);}
 /*mainpage galery*/
-.mainpg_cont_gallery div a:hover {color: var(--font5-color);}
-.mainpg_cont_gallery div a {color: var(--font4-color);}
+#cont_gallery div a:hover {color: var(--font5-color);}
+#cont_gallery div a {color: var(--font4-color);}
 
 /*=====BACKGROUND=====*/
 #content {background-color: var(--main05-color);} /*mainpage bg*/
@@ -23,8 +23,10 @@ h2, h3 {color: var(--font5-color);} /*titles*/
 #container.header ul li:hover ul li {border-top: 1px solid var(--main04-color); background-color: var(--main03-color-h);}
 /*mainpage galery*/
 .mainpg_cont_home  img {border: 4px solid var(--main01-color);}
-#mainpage_content.mainpage .mainpg_cont_gallery div a:hover p {background-color: var(--main01-color-h);}
-#mainpage_content.mainpage  .mainpg_cont_gallery div p {background-color: var(--main03-color);}
+#mainpage_content.mainpage #cont_gallery div a:hover p {background-color: var(--main01-color-h);}
+#mainpage_content.mainpage #cont_gallery div p {background-color: var(--main03-color);}
+#mainpage_content.mainpage #cont_gallery div a:hover img{border: 1px solid var(--main01-color-h);}
+#mainpage_content.mainpage #cont_gallery div a:hover p{border: 1px solid var(--main01-color-h);}
 
 
 /*==========GOOD ONES==========*/
@@ -53,12 +55,12 @@ html[theme="purple"] {
     --main02-color-h: #e4def9f5;
     --main03-color-h: #ebc1eef5;
     --main04-color-h: #ada1e6f5;
-    --main05-color: #605399;
-    --font1-color: #d562be;
+    --main05-color: #fff4ff;
+    --font1-color: #040303;
     --font2-color: #f1faee;
     --font3-color: #000814;
     --font4-color: #000814;
-    --font5-color: #f1faee;
+    --font5-color: #000814;
 }
 
 /*==========BEING TESTED==========*/
