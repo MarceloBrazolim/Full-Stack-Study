@@ -1,5 +1,5 @@
 let inner, pageTitle;
-page_nav("home"); // Default page
+page_nav("gallery"); // Default page
 function page_nav(index) {
     switch (index) {
         case 'home':
@@ -13,15 +13,26 @@ function page_nav(index) {
             overwriteMainPage(inner)
             break;
         case 'mycv':
-            pageTitle = 'My Curriculum'
-            inner = '<div class="row-md-12"><h2>My Curriculum Vitae</h2></div><div class="mainpg_cont_cv row"><div><embed src="../../database/CVMarceloMarchezini.pdf" type="application/pdf"></div></div>'
+            pageTitle = `My Curriculum`
+            inner = '' +
+            `<div class="row-md-12">` +
+                `<h2>My Curriculum Vitae</h2>` +
+            `</div>` +
+            `<div class="mainpg_cont_cv row">` +
+                `<div>` +
+                    `<embed src="../../database/CVMarceloMarchezini.pdf" type="application/pdf">` +
+                 `</div>` +
+            `</div>`
             overwriteMainPage(inner)
             break;
         case 'gallery':
-            pageTitle = 'Gallery'
-            inner = '<div class="row-md-12"></div><div id="cont_gallery" class="mainpage row"></div>'
+            inner = '' +
+            `<div class="row-md-12 mainpg-bg">` +
+            `</div>` +
+            `<div id="cont_gallery" class="mainpage row">` +
+            `</div>`
             overwriteMainPage(inner);
-            let myGallery = new Gallery('mainpage_content', galleryContent);
+            let myGallery = new Page('mainpage_content', galleryContent);
             myGallery.generate();
             break;
         }

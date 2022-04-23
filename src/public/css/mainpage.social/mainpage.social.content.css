@@ -1,34 +1,60 @@
 #mainpage_content.mainpage #cont_gallery {
     padding: 10px 20px;
 }
-
-
-#cont_gallery div {
-    margin-bottom: 1rem;
+#mainpage_content.mainpage .mainpage {
+    margin: 0 0 20px;
 }
-#cont_gallery div a {
-    transition: color 0.2s;
+.mainpg-bg{
+    padding: 10px 20px;
+}
+
+/**/
+
+#cont_gallery div div {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#cont_gallery div div a, #cont_gallery div div font {
     text-decoration: none;
+    transition: color 0.2s;
+    position: relative;
+    display: block;
 }
-#cont_gallery div a:hover {
-    opacity: .9;
+#cont_gallery div div span {
+    border-bottom: none;
+    border-top: none;
+    font-size: 8pt;
+    display: none;
+    width: 100%;
 }
-#cont_gallery div img {
+#cont_gallery div div:hover span {
+    padding: 2px 8px 0.5rem;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+#cont_gallery div div:hover p {
+    border-top: none;
+}
+#cont_gallery div div:hover img, #cont_gallery div div:hover video {
+    border-bottom: none;
+}
+#cont_gallery div div img, #cont_gallery div div video {
     border-radius: 2px 2px 0 0;
+    vertical-align: middle;
     border-bottom: none;
     width: 100%;
 }
-#cont_gallery div p {
+#cont_gallery div div p {
     letter-spacing: 0.4px;
-    transition: background-color 0.2s;
+    transition: background-color 0.1s;
     border-radius: 0 0 5px 2px;
     font-weight: 550;
     font-size: 12pt;
     line-height: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 1rem;
-    padding-top: 5px;
+    padding: 2px 5px 1rem 7px;
     border-top: none;
-    min-height: 70px;
+    min-height: 40px;
+    margin: 0;
 }
