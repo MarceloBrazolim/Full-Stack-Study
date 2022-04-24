@@ -5,7 +5,10 @@ class Page {
     }
     generate() {
         let element = document.getElementById(this.target)
-        element.getElementsByTagName("div")[0].innerHTML = `<h2>${this.array.title}</h2><p>${this.array.desc}</p><hr>`
+        element.getElementsByTagName("div")[0].innerHTML = '' +
+        `<h2>${this.array.title}</h2>` +
+        `<p>${this.array.desc}</p>` +
+        `<hr>`
 
         let typeCheck;
         for (let index in this.array.gallery) {
