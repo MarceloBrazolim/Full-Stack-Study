@@ -11,29 +11,43 @@ class Page {
         `<hr>`
 
         let typeCheck;
-        for (let index in this.array.gallery) {
-            typeCheck = [`a target="_blank" href="${this.array.gallery[index].href}"`, 'a'];
-            if (this.array.gallery[index].type == 'video') {
-                this.array.gallery[index].type += ` onClick="playPause('${index}')"`;
-                typeCheck = ['font', 'font'];
+        let content = this.array.gallery;
+        for (let index in content) {
+            typeCheck = [`a target="_blank" href="${content[index].href}"`, 'a', ''];
+            if (content[index].type == 'video') {
+                content[index].type += ` loop onClick="playPause('${index}')"`;
+                typeCheck = ['font', 'font', '<i class="fa-solid fa-play"></i>'];
             }
-            if (this.array.gallery[index].hover === undefined) {
-                this.array.gallery[index].hover = '';
+            if (content[index].hover === undefined) {
+                content[index].hover = '';
             }
 
             element.getElementsByTagName("div")[1].innerHTML +=
-            `<div class="col-md-2"><div title="${this.array.gallery[index].hover}"><${typeCheck[0]}>` +
-            `<span>${this.array.gallery[index].desc}</span><${this.array.gallery[index].type} id="${index}" src="${this.array.gallery[index].src}">` +
-            `</${typeCheck[1]}><p>${this.array.gallery[index].title}</p></div></div>`;
+            `<div class="col-md-2">` +
+                `<div id="${index}" title="${content[index].hover}">` +
+                    `<${typeCheck[0]}>` +   // <a>
+                        `<span>${content[index].desc}</span>` +
+                        `${typeCheck[2]}` +   // <i>
+                        `<${content[index].type} src="${content[index].src}">` +    // img / video
+                    `</${typeCheck[1]}>` +  // </a>
+                    `<p>${content[index].title}</p>` +
+                `</div>` +
+            `</div>`;
         }
     }
 }
 
 function playPause(index) {
-    let myVideo = document.getElementById(index);
+    let myDiv = document.getElementById(index);
+    let myVideo = myDiv.getElementsByTagName('video')[0]
+    let videoButton = myDiv.getElementsByTagName('i')[0]
     if (myVideo.paused) {
         myVideo.play();
+        videoButton.classList.add('fa-pause', 'active')
+        videoButton.classList.remove('fa-play')
     } else {
         myVideo.pause();
+        videoButton.classList.remove('fa-pause', 'active')
+        videoButton.classList.add('fa-play')
     }
 }

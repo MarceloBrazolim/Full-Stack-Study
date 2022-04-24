@@ -14,6 +14,8 @@ h2, h3 {color: var(--font5-color);} /*titles*/
 #cont_gallery div div:hover span {color: var(--font5-color);}
 #cont_gallery div div:hover p {color: var(--font5-color);}
 #cont_gallery div div p {color: var(--font4-color);}
+#cont_gallery div div:hover i {color: var(--font4-color)}
+#cont_gallery div div i {color: var(--font5-color)}
 
 /*=====BACKGROUND=====*/
 #content {background-color: var(--main05-color);} /*mainpage bg*/
