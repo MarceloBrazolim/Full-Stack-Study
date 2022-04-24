@@ -5,11 +5,15 @@
     margin: 0 0 20px;
 }
 .mainpg-bg{
-    padding: 10px 20px;
+    padding: 10px 20px 1px;
+    margin-bottom: 1rem;
 }
 
 /**/
 
+#cont_gallery div {
+    max-width: 277px;
+}
 #cont_gallery div div {
     margin-bottom: 2rem;
     cursor: pointer;
@@ -21,8 +25,6 @@
     display: block;
 }
 #cont_gallery div div span {
-    border-bottom: none;
-    border-top: none;
     font-size: 8pt;
     display: none;
     width: 100%;
@@ -35,15 +37,16 @@
     left: 0;
 }
 #cont_gallery div div:hover p {
-    border-top: none;
+    outline-style: solid;
+    outline-width: 1px;
 }
 #cont_gallery div div:hover img, #cont_gallery div div:hover video {
-    border-bottom: none;
+    outline-style: solid;
+    outline-width: 1px;
 }
 #cont_gallery div div img, #cont_gallery div div video {
     border-radius: 2px 2px 0 0;
     vertical-align: middle;
-    border-bottom: none;
     width: 100%;
 }
 #cont_gallery div div p {
@@ -54,7 +57,6 @@
     font-size: 12pt;
     line-height: 20px;
     padding: 2px 5px 1rem 7px;
-    border-top: none;
     min-height: 40px;
     margin: 0;
 }

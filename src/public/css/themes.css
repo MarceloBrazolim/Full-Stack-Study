@@ -23,16 +23,15 @@ h2, h3 {color: var(--font5-color);} /*titles*/
 #container.header {background-color: var(--main02-color-h);}
 #container.header ul li:hover ul li:hover {background-color: var(--main04-color-h);}
 #container.header ul li:hover ul li:hover span {background-color: var(--main02-color);}
-#container.header ul li:hover ul li span {border: 1px solid var(--main01-color); background-color: var(--main01-color);}
-#container.header ul li:hover ul li {border-top: 1px solid var(--main04-color); background-color: var(--main03-color-h);}
+#container.header ul li:hover ul li span {border-color: var(--main01-color); background-color: var(--main01-color);}
+#container.header ul li:hover ul li {border-color: var(--main04-color); background-color: var(--main03-color-h);}
 /*mainpage galery*/
-.mainpg_cont_home  img {border: 4px solid var(--main01-color);}
+.mainpg_cont_home  img {outline: 4px solid var(--main01-color);}
 #cont_gallery div div p {background-color: var(--main03-color);}
-#cont_gallery div div:hover p {border: 1px solid var(--main01-color-h);}
+#cont_gallery div div:hover p {outline-color: var(--main01-color-h);}
 #cont_gallery div div:hover p {background-color: var(--main01-color-h);}
-#cont_gallery div div:hover img, #cont_gallery div div:hover video {border: 1px solid var(--main01-color-h);}
+#cont_gallery div div:hover img, #cont_gallery div div:hover video {outline-color: var(--main01-color-h);}
 #cont_gallery div div:hover span {background-color: var(--main05-color-h);}
-#cont_gallery div div span {border: 1px solid var(--main01-color-h);}
 
 
 /*==========GOOD ONES==========*/
@@ -63,7 +62,7 @@ html[theme="purple"] {
     --main03-color-h: #ebc1eef5;
     --main04-color-h: #ada1e6f5;
     --main05-color-h: #605399d0;
-    --main05-color: #fff4ff;
+    --main05-color: #fff4f4;
     --font1-color: #040303;
     --font2-color: #f1faee;
     --font3-color: #000814;
