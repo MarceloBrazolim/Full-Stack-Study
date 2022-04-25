@@ -1,4 +1,4 @@
-let inner, pageTitle;
+let inner, pageArray;
 page_nav("gallery"); // Default page
 function page_nav(index) {
     switch (index) {
@@ -13,7 +13,7 @@ function page_nav(index) {
             overwriteMainPage(inner)
             break;
         case 'mycv':
-            pageTitle = `My Curriculum`
+            pageTitle = ``
             inner = '' +
             `<div class="row-md-12">` +
                 `<h2>My Curriculum Vitae</h2>` +
@@ -26,17 +26,18 @@ function page_nav(index) {
             overwriteMainPage(inner)
             break;
         case 'gallery':
+            pageArray = galleryContent;
             inner = '' +
             `<div class="row-md-12 mainpg-bg">` +
             `</div>` +
             `<div id="cont_gallery" class="mainpage row">` +
             `</div>`
             overwriteMainPage(inner);
-            let myGallery = new Page('mainpage_content', galleryContent);
+            let myGallery = new Page('mainpage_content', pageArray);
             myGallery.generate();
             break;
         }
-        document.title = pageTitle;
+        document.title = `${pageArray.pageTitle}`;
 }
 
 function overwriteMainPage(inner) {

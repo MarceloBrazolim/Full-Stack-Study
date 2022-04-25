@@ -103,8 +103,8 @@ let galleryContent = {
 		},
 		"14": {
 			"type": "video",
-			"title": "Title",
-			"desc": "Description",
+			"title": "The Chairman 👀",
+			"desc": "It's The Chairman, he's always watching.",
 			"src": "./img/download_21.mp4",
 			"href": "./img/download_21.mp4"
 		}

@@ -6,6 +6,8 @@ class Page {
     generate() {
         let content = this.array.gallery;
         let element = document.getElementById(this.target)
+        document.title = `${this.array.pageTitle}`
+        console.log(document.title);
         element.getElementsByTagName("div")[0].innerHTML = '' +
         `<h2>${this.array.title}</h2>` +
         `<p>${this.array.desc}</p>` +
