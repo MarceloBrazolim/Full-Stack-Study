@@ -24,12 +24,16 @@
     display: block;
 }
 #cont_gallery div div i {
+    pointer-events: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 42pt;
     opacity: 0.8;
+}
+#cont_gallery div div:hover i {
+    opacity: 0.55;
 }
 #cont_gallery div div i.active {
     display: none;
@@ -58,13 +62,15 @@
     outline-width: 1px;
 }
 #cont_gallery div div img, #cont_gallery div div video {
+    pointer-events: auto;
     border-radius: 2px 2px 0 0;
     vertical-align: middle;
     width: 100%;
 }
 #cont_gallery div div p {
-    letter-spacing: 0.4px;
     border-radius: 0 0 5px 2px;
+    transition: background-color 0.05s;
+    letter-spacing: 0.4px;
     font-weight: 550;
     font-size: 12pt;
     line-height: 20px;

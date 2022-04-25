@@ -4,6 +4,7 @@ class Page {
         this.array = array;
     }
     generate() {
+        let content = this.array.gallery;
         let element = document.getElementById(this.target)
         element.getElementsByTagName("div")[0].innerHTML = '' +
         `<h2>${this.array.title}</h2>` +
@@ -11,12 +12,11 @@ class Page {
         `<hr>`
 
         let typeCheck;
-        let content = this.array.gallery;
         for (let index in content) {
             typeCheck = [`a target="_blank" href="${content[index].href}"`, 'a', ''];
             if (content[index].type == 'video') {
                 content[index].type += ` loop onClick="playPause('${index}')"`;
-                typeCheck = ['font', 'font', '<i class="fa-solid fa-play"></i>'];
+                typeCheck = ['font', 'font', `<i class="fa-solid fa-play" onclick="playPause('${index}')"></i>`];
             }
             if (content[index].hover === undefined) {
                 content[index].hover = '';
